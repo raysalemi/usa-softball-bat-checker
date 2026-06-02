@@ -174,18 +174,62 @@
 
     <script>
         let batsData = [];
+        let searchIndex = new Map();
 
         async function loadBats() {
             try {
                 const response = await fetch('bats.json');
                 if (response.ok) {
                     batsData = await response.json();
+                    buildIndex();
                 } else {
                     console.error('Failed to load bats.json');
                 }
             } catch (error) {
                 console.error('Error fetching bats data:', error);
             }
+        }
+
+        function buildIndex() {
+            searchIndex.clear();
+            batsData.forEach(bat => {
+                // Pre-compute lowercased search string to avoid doing it during filtering
+                bat._searchString = `${bat.model || ''} ${bat.manufacturer || ''} ${bat.name || ''}`.toLowerCase();
+                
+                // Tokenize by spaces and hyphens to build prefix index
+                const words = bat._searchString.split(/[\s-]+/);
+                const indexedPrefixes = new Set();
+                
+                words.forEach(word => {
+                    // Index by 1-character prefix
+                    if (word.length >= 1) {
+                        const prefix1 = word.substring(0, 1);
+                        if (!indexedPrefixes.has(prefix1)) {
+                            if (!searchIndex.has(prefix1)) searchIndex.set(prefix1, []);
+                            searchIndex.get(prefix1).push(bat);
+                            indexedPrefixes.add(prefix1);
+                        }
+                    }
+                    // Index by 2-character prefix
+                    if (word.length >= 2) {
+                        const prefix2 = word.substring(0, 2);
+                        if (!indexedPrefixes.has(prefix2)) {
+                            if (!searchIndex.has(prefix2)) searchIndex.set(prefix2, []);
+                            searchIndex.get(prefix2).push(bat);
+                            indexedPrefixes.add(prefix2);
+                        }
+                    }
+                    // Index by 3-character prefix for even better lookup
+                    if (word.length >= 3) {
+                        const prefix3 = word.substring(0, 3);
+                        if (!indexedPrefixes.has(prefix3)) {
+                            if (!searchIndex.has(prefix3)) searchIndex.set(prefix3, []);
+                            searchIndex.get(prefix3).push(bat);
+                            indexedPrefixes.add(prefix3);
+                        }
+                    }
+                });
+            });
         }
 
         function renderResults(query) {
@@ -203,12 +247,20 @@
             }
 
             const lowerQuery = query.toLowerCase();
-            const matches = batsData.filter(bat => {
-                const model = (bat.model || '').toLowerCase();
-                const manufacturer = (bat.manufacturer || '').toLowerCase();
-                const name = (bat.name || '').toLowerCase();
-                return model.includes(lowerQuery) || manufacturer.includes(lowerQuery) || name.includes(lowerQuery);
-            });
+            const firstWord = lowerQuery.split(/\s+/)[0];
+            
+            // Leverage the index map for near-instantaneous filtering
+            let candidateBats = batsData;
+            if (firstWord.length >= 3 && searchIndex.has(firstWord.substring(0, 3))) {
+                candidateBats = searchIndex.get(firstWord.substring(0, 3));
+            } else if (firstWord.length === 2 && searchIndex.has(firstWord)) {
+                candidateBats = searchIndex.get(firstWord);
+            } else if (firstWord.length === 1 && searchIndex.has(firstWord)) {
+                candidateBats = searchIndex.get(firstWord);
+            }
+
+            // Filter down the reduced candidate set
+            const matches = candidateBats.filter(bat => bat._searchString.includes(lowerQuery));
 
             if (matches.length === 0) {
                 resultsContainer.innerHTML = `
@@ -220,14 +272,17 @@
                 return;
             }
 
-            matches.forEach(bat => {
+            // Limit rendering to 50 items to ensure the main UI thread never blocks
+            const matchesToRender = matches.slice(0, 50);
+
+            matchesToRender.forEach(bat => {
                 const status = (bat.status || '').toUpperCase();
                 const isBanned = status === 'BANNED';
                 const isApproved = status === 'APPROVED';
-
+                
                 let cardClass = 'card';
                 let title = '';
-
+                
                 if (isBanned) {
                     cardClass += ' card-banned';
                     title = '<h2>BANNED / ILLEGAL</h2>';
@@ -248,6 +303,14 @@
                 `;
                 resultsContainer.innerHTML += cardHtml;
             });
+            
+            if (matches.length > 50) {
+                resultsContainer.innerHTML += `
+                    <div class="empty-state" style="font-size: 1.2rem; padding: 20px;">
+                        Showing top 50 matches. Keep typing to refine your search...
+                    </div>
+                `;
+            }
         }
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
