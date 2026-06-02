@@ -178,7 +178,8 @@
 
         async function loadBats() {
             try {
-                const response = await fetch('bats.json');
+                // Use cache busting query parameter to force fetching fresh data
+                const response = await fetch(`bats.json?v=${new Date().getTime()}`);
                 if (response.ok) {
                     batsData = await response.json();
                     buildIndex();
