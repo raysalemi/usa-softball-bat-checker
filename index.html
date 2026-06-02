@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>USA Softball Bat Checker</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #000000;
+            --border-color: #000000;
+            --focus-color: #0055ff;
+            --banned-bg: #ff0000;
+            --banned-text: #ffffff;
+            --approved-bg: #00aa00;
+            --approved-text: #ffffff;
+            --warning-bg: #ffcc00;
+            --warning-text: #000000;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            padding: 16px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 24px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .search-container {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        input[type="text"] {
+            flex-grow: 1;
+            font-size: 1.5rem;
+            padding: 16px;
+            border: 4px solid var(--border-color);
+            border-radius: 8px;
+            outline: none;
+            font-weight: bold;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--focus-color);
+        }
+
+        .camera-btn {
+            background-color: #e0e0e0;
+            border: 4px solid var(--border-color);
+            border-radius: 8px;
+            padding: 16px;
+            cursor: not-allowed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.5;
+        }
+
+        .camera-btn svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        #results {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .empty-state {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding: 40px 20px;
+            border: 4px dashed var(--border-color);
+            border-radius: 12px;
+        }
+
+        .card {
+            border: 6px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            font-size: 1.5rem;
+        }
+
+        .card-banned {
+            background-color: var(--banned-bg);
+            color: var(--banned-text);
+            border-color: #000;
+        }
+
+        .card-banned h2 {
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .card-approved {
+            background-color: var(--approved-bg);
+            color: var(--approved-text);
+            border-color: #000;
+        }
+
+        .card-approved h2 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        .card-warning {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+            border-color: #000;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .detail {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        .label {
+            font-weight: normal;
+            font-size: 1.2rem;
+            opacity: 0.9;
+            display: block;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bat Checker</h1>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter Model or Brand" autocomplete="off" autocorrect="off">
+        <button class="camera-btn" disabled aria-label="Scan with Camera (Coming Soon)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+        </button>
+    </div>
+
+    <div id="results">
+        <div class="empty-state">
+            Start typing to search.<br><br>
+            Please check the bat's handle or barrel for the model number.
+        </div>
+    </div>
+
+    <script>
+        let batsData = [];
+
+        async function loadBats() {
+            try {
+                const response = await fetch('bats.json');
+                if (response.ok) {
+                    batsData = await response.json();
+                } else {
+                    console.error('Failed to load bats.json');
+                }
+            } catch (error) {
+                console.error('Error fetching bats data:', error);
+            }
+        }
+
+        function renderResults(query) {
+            const resultsContainer = document.getElementById('results');
+            resultsContainer.innerHTML = '';
+
+            if (!query) {
+                resultsContainer.innerHTML = `
+                    <div class="empty-state">
+                        Start typing to search.<br><br>
+                        Please check the bat's handle or barrel for the model number.
+                    </div>
+                `;
+                return;
+            }
+
+            const lowerQuery = query.toLowerCase();
+            const matches = batsData.filter(bat => {
+                const model = (bat.model || '').toLowerCase();
+                const manufacturer = (bat.manufacturer || '').toLowerCase();
+                const name = (bat.name || '').toLowerCase();
+                return model.includes(lowerQuery) || manufacturer.includes(lowerQuery) || name.includes(lowerQuery);
+            });
+
+            if (matches.length === 0) {
+                resultsContainer.innerHTML = `
+                    <div class="card card-warning">
+                        NOT FOUND IN REGISTRY<br><br>
+                        Please check for physical USA Softball certification stamps on the bat.
+                    </div>
+                `;
+                return;
+            }
+
+            matches.forEach(bat => {
+                const status = (bat.status || '').toUpperCase();
+                const isBanned = status === 'BANNED';
+                const isApproved = status === 'APPROVED';
+                
+                let cardClass = 'card';
+                let title = '';
+                
+                if (isBanned) {
+                    cardClass += ' card-banned';
+                    title = '<h2>BANNED / ILLEGAL</h2>';
+                } else if (isApproved) {
+                    cardClass += ' card-approved';
+                    title = '<h2>APPROVED FOR USE</h2>';
+                } else {
+                    title = `<h2>${status}</h2>`;
+                }
+
+                const cardHtml = \`
+                    <div class="\${cardClass}">
+                        \${title}
+                        <div class="detail"><span class="label">Manufacturer</span>\${bat.manufacturer || 'N/A'}</div>
+                        <div class="detail"><span class="label">Model</span>\${bat.model || 'N/A'}</div>
+                        <div class="detail"><span class="label">Name</span>\${bat.name || 'N/A'}</div>
+                    </div>
+                \`;
+                resultsContainer.innerHTML += cardHtml;
+            });
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            renderResults(e.target.value.trim());
+        });
+
+        // Initialize
+        loadBats();
+    </script>
+</body>
+</html>
