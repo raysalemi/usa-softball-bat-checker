@@ -217,6 +217,12 @@
         "status": "BANNED"
     },
     {
+        "model": "DIC20M",
+        "manufacturer": "Miken",
+        "name": "Maniac",
+        "status": "APPROVED"
+    },
+    {
         "model": "Tomahawk",
         "manufacturer": "Nokona",
         "name": "Tomahawk",
