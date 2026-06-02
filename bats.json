@@ -1,0 +1,44 @@
+[
+    {
+        "model": "SCN11BH",
+        "manufacturer": "Easton",
+        "name": "Synergy (Helmer Edition)",
+        "status": "BANNED"
+    },
+    {
+        "model": "MSF Freak",
+        "manufacturer": "Miken",
+        "name": "Freak Single-Wall",
+        "status": "BANNED"
+    },
+    {
+        "model": "SBFPB-10",
+        "manufacturer": "Suncoast",
+        "name": "Aftershock",
+        "status": "BANNED"
+    },
+    {
+        "model": "FPVQSH2K10",
+        "manufacturer": "Adidas",
+        "name": "Vanquish",
+        "status": "APPROVED"
+    },
+    {
+        "model": "23APRN212-1",
+        "manufacturer": "Anarchy Bats",
+        "name": "Reign",
+        "status": "APPROVED"
+    },
+    {
+        "model": "DIC20M",
+        "manufacturer": "Miken",
+        "name": "Maniac",
+        "status": "APPROVED"
+    },
+    {
+        "model": "L136A",
+        "manufacturer": "Axe Bat",
+        "name": "Danielle Lawrie Signature",
+        "status": "APPROVED"
+    }
+]

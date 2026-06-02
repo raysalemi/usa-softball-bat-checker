@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -138,7 +139,7 @@
             margin-bottom: 8px;
             font-weight: bold;
         }
-        
+
         .label {
             font-weight: normal;
             font-size: 1.2rem;
@@ -148,6 +149,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <h1>Bat Checker</h1>
@@ -155,7 +157,8 @@
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Enter Model or Brand" autocomplete="off" autocorrect="off">
         <button class="camera-btn" disabled aria-label="Scan with Camera (Coming Soon)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
                 <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
                 <circle cx="12" cy="13" r="4"></circle>
             </svg>
@@ -221,10 +224,10 @@
                 const status = (bat.status || '').toUpperCase();
                 const isBanned = status === 'BANNED';
                 const isApproved = status === 'APPROVED';
-                
+
                 let cardClass = 'card';
                 let title = '';
-                
+
                 if (isBanned) {
                     cardClass += ' card-banned';
                     title = '<h2>BANNED / ILLEGAL</h2>';
@@ -235,14 +238,14 @@
                     title = `<h2>${status}</h2>`;
                 }
 
-                const cardHtml = \`
-                    <div class="\${cardClass}">
-                        \${title}
-                        <div class="detail"><span class="label">Manufacturer</span>\${bat.manufacturer || 'N/A'}</div>
-                        <div class="detail"><span class="label">Model</span>\${bat.model || 'N/A'}</div>
-                        <div class="detail"><span class="label">Name</span>\${bat.name || 'N/A'}</div>
+                const cardHtml = `
+                    <div class="${cardClass}">
+                        ${title}
+                        <div class="detail"><span class="label">Manufacturer</span>${bat.manufacturer || 'N/A'}</div>
+                        <div class="detail"><span class="label">Model</span>${bat.model || 'N/A'}</div>
+                        <div class="detail"><span class="label">Name</span>${bat.name || 'N/A'}</div>
                     </div>
-                \`;
+                `;
                 resultsContainer.innerHTML += cardHtml;
             });
         }
@@ -255,4 +258,5 @@
         loadBats();
     </script>
 </body>
+
 </html>
