@@ -154,7 +154,10 @@
         </div>
     </div>
 
-    <div class="version">v1.0</div>
+    <div class="version">
+        v1.1
+        <div id="newestDateContainer" style="margin-top: 8px;"></div>
+    </div>
 
     <script>
         let batsData = [];
@@ -167,6 +170,24 @@
                 if (response.ok) {
                     batsData = await response.json();
                     buildIndex();
+                    
+                    let maxTime = 0;
+                    let newestDateStr = "";
+                    batsData.forEach(bat => {
+                        if (bat.last_update) {
+                            const d = new Date(bat.last_update);
+                            if (!isNaN(d.getTime())) {
+                                if (d.getTime() > maxTime) {
+                                    maxTime = d.getTime();
+                                    newestDateStr = bat.last_update;
+                                }
+                            }
+                        }
+                    });
+                    
+                    if (maxTime > 0) {
+                        document.getElementById('newestDateContainer').textContent = `Newest Bat Date: ${newestDateStr}`;
+                    }
                 } else {
                     console.error('Failed to load bats.json');
                 }

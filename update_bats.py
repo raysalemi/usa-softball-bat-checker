@@ -30,18 +30,25 @@ with open('Bats/CertifiedBats.csv', 'r', encoding='utf-8') as f:
         if not manufacturer and not model:
             continue
             
+        if len(row) > 4:
+            last_update = row[4].strip()
+        else:
+            last_update = ""
+            
         key = (manufacturer.lower(), model.lower())
         
         if key in bats_dict:
-            if bats_dict[key].get('status') != "APPROVED":
+            if bats_dict[key].get('status') != "APPROVED" or bats_dict[key].get('last_update') != last_update:
                 bats_dict[key]['status'] = "APPROVED"
+                bats_dict[key]['last_update'] = last_update
                 updated += 1
         else:
             new_bat = {
                 "model": model,
                 "manufacturer": manufacturer,
                 "name": name,
-                "status": "APPROVED"
+                "status": "APPROVED",
+                "last_update": last_update
             }
             bats_data.append(new_bat)
             bats_dict[key] = new_bat
