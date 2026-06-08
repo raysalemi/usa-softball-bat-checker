@@ -7,6 +7,42 @@
         "status": "INFO"
     },
     {
+        "model": "XWICKX",
+        "manufacturer": "Worth",
+        "name": "Wicked (SP Only)",
+        "status": "BANNED"
+    },
+    {
+        "model": "XRed",
+        "manufacturer": "Worth",
+        "name": "XRed",
+        "status": "BANNED"
+    },
+    {
+        "model": "XPST4",
+        "manufacturer": "Worth",
+        "name": "XPST4",
+        "status": "BANNED"
+    },
+    {
+        "model": "XGold",
+        "manufacturer": "Worth",
+        "name": "XGold",
+        "status": "BANNED"
+    },
+    {
+        "model": "XEST9X",
+        "manufacturer": "Worth",
+        "name": "XEST9X",
+        "status": "BANNED"
+    },
+    {
+        "model": "WWSCA",
+        "manufacturer": "Worth",
+        "name": "WWSCA",
+        "status": "BANNED"
+    },
+    {
         "model": "Quake",
         "manufacturer": "Bass",
         "name": "Quake",
