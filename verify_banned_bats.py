@@ -94,6 +94,8 @@ def check_banned_bats():
     print("Missing or not banned:")
     for m in missing:
         print(m)
+    if missing:
+        raise SystemExit(1)
 
 if __name__ == "__main__":
     check_banned_bats()

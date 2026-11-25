@@ -155,8 +155,9 @@
     </div>
 
     <div class="version">
-        v1.1
+        v2.0
         <div id="newestDateContainer" style="margin-top: 8px;"></div>
+        <div id="lastCheckedContainer" style="margin-top: 4px;"></div>
     </div>
 
     <script>
@@ -168,7 +169,9 @@
                 // Use cache busting query parameter to force fetching fresh data
                 const response = await fetch(`bats.json?v=${new Date().getTime()}`);
                 if (response.ok) {
-                    batsData = await response.json();
+                    const rawData = await response.json();
+                    const meta = rawData.find(b => b.status === 'INFO');
+                    batsData = rawData.filter(b => b.status !== 'INFO');
                     buildIndex();
                     
                     let maxTime = 0;
@@ -187,6 +190,9 @@
                     
                     if (maxTime > 0) {
                         document.getElementById('newestDateContainer').textContent = `Newest Bat Date: ${newestDateStr}`;
+                    }
+                    if (meta && meta.last_checked) {
+                        document.getElementById('lastCheckedContainer').textContent = `Last Synced: ${meta.last_checked}`;
                     }
                 } else {
                     console.error('Failed to load bats.json');

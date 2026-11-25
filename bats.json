@@ -1,46 +1,11 @@
 [
     {
-        "_version": "V01",
+        "_version": "V02",
         "model": "SYSTEM",
         "manufacturer": "SYSTEM",
         "name": "Database Version",
-        "status": "INFO"
-    },
-    {
-        "model": "XWICKX",
-        "manufacturer": "Worth",
-        "name": "Wicked (SP Only)",
-        "status": "BANNED"
-    },
-    {
-        "model": "XRed",
-        "manufacturer": "Worth",
-        "name": "XRed",
-        "status": "BANNED"
-    },
-    {
-        "model": "XPST4",
-        "manufacturer": "Worth",
-        "name": "XPST4",
-        "status": "BANNED"
-    },
-    {
-        "model": "XGold",
-        "manufacturer": "Worth",
-        "name": "XGold",
-        "status": "BANNED"
-    },
-    {
-        "model": "XEST9X",
-        "manufacturer": "Worth",
-        "name": "XEST9X",
-        "status": "BANNED"
-    },
-    {
-        "model": "WWSCA",
-        "manufacturer": "Worth",
-        "name": "WWSCA",
-        "status": "BANNED"
+        "status": "INFO",
+        "last_checked": "2026-11-25"
     },
     {
         "model": "Quake",
@@ -211,12 +176,6 @@
         "status": "BANNED"
     },
     {
-        "model": "SB73V",
-        "manufacturer": "Louisville Slugger",
-        "name": "TPS Voltage",
-        "status": "BANNED"
-    },
-    {
         "model": "SB34",
         "manufacturer": "Louisville Slugger",
         "name": "Genesis",
@@ -226,6 +185,12 @@
         "model": "SB404",
         "manufacturer": "Louisville Slugger",
         "name": "SB404",
+        "status": "BANNED"
+    },
+    {
+        "model": "SB73V",
+        "manufacturer": "Louisville Slugger",
+        "name": "TPS Voltage",
         "status": "BANNED"
     },
     {
@@ -251,13 +216,6 @@
         "manufacturer": "Miken",
         "name": "Ultra Maxload",
         "status": "BANNED"
-    },
-    {
-        "model": "DIC20M",
-        "manufacturer": "Miken",
-        "name": "Maniac",
-        "status": "APPROVED",
-        "last_update": "4/15/2022"
     },
     {
         "model": "Tomahawk",
@@ -326,6 +284,42 @@
         "status": "BANNED"
     },
     {
+        "model": "WWSCA",
+        "manufacturer": "Worth",
+        "name": "WWSCA",
+        "status": "BANNED"
+    },
+    {
+        "model": "XEST9X",
+        "manufacturer": "Worth",
+        "name": "XEST9X",
+        "status": "BANNED"
+    },
+    {
+        "model": "XGold",
+        "manufacturer": "Worth",
+        "name": "XGold",
+        "status": "BANNED"
+    },
+    {
+        "model": "XPST4",
+        "manufacturer": "Worth",
+        "name": "XPST4",
+        "status": "BANNED"
+    },
+    {
+        "model": "XRed",
+        "manufacturer": "Worth",
+        "name": "XRed",
+        "status": "BANNED"
+    },
+    {
+        "model": "XWICKX",
+        "manufacturer": "Worth",
+        "name": "Wicked (SP Only)",
+        "status": "BANNED"
+    },
+    {
         "model": "FPVQSH2K10",
         "manufacturer": "Adidas",
         "name": "Vanquish",
@@ -347,110 +341,6 @@
         "last_update": "8/13/2008"
     },
     {
-        "model": "FPVQSH2K8",
-        "manufacturer": "Adidas",
-        "name": "Vanquish",
-        "status": "APPROVED"
-    },
-    {
-        "model": "Catapult Black",
-        "manufacturer": "Akadema",
-        "name": "Catapult",
-        "status": "APPROVED",
-        "last_update": "9/16/2009"
-    },
-    {
-        "model": "Xtension",
-        "manufacturer": "Akadema",
-        "name": "Xtension",
-        "status": "APPROVED",
-        "last_update": "8/13/2008"
-    },
-    {
-        "model": "Xtension Catapult",
-        "manufacturer": "Akadema",
-        "name": "Catapult",
-        "status": "APPROVED",
-        "last_update": "8/13/2008"
-    },
-    {
-        "model": "ACL-XO7FP",
-        "manufacturer": "Albin Athletics",
-        "name": "ACL",
-        "status": "APPROVED",
-        "last_update": "8/13/2008"
-    },
-    {
-        "model": "ACL-XO7SP",
-        "manufacturer": "Albin Athletics",
-        "name": "ACL",
-        "status": "APPROVED",
-        "last_update": "8/13/2008"
-    },
-    {
-        "model": "WSA6JRBEDL-25",
-        "manufacturer": "Worth",
-        "name": "BEDLAM - Josh Riley",
-        "status": "APPROVED",
-        "last_update": "11/13/2025"
-    },
-    {
-        "model": "WSA6JRBEDL-26",
-        "manufacturer": "Worth",
-        "name": "BEDLAM - Josh Riley",
-        "status": "APPROVED",
-        "last_update": "11/13/2025"
-    },
-    {
-        "model": "WSBR",
-        "manufacturer": "Worth",
-        "name": "WSBR",
-        "status": "APPROVED",
-        "last_update": "8/14/2008"
-    },
-    {
-        "model": "WSCBLU",
-        "manufacturer": "Worth",
-        "name": "EST",
-        "status": "APPROVED",
-        "last_update": "2/6/2023"
-    },
-    {
-        "model": "WSCRED",
-        "manufacturer": "Worth",
-        "name": "EST",
-        "status": "APPROVED",
-        "last_update": "2/6/2023"
-    },
-    {
-        "model": "WSD4AMP",
-        "manufacturer": "Worth",
-        "name": "AMP",
-        "status": "APPROVED",
-        "last_update": "2/2/2024"
-    },
-    {
-        "model": "WSD4MAY",
-        "manufacturer": "Worth",
-        "name": "Mayhem",
-        "status": "APPROVED",
-        "last_update": "2/2/2024"
-    },
-    {
-        "model": "WSG22A",
-        "manufacturer": "Worth",
-        "name": "Supercell Gold",
-        "status": "APPROVED",
-        "last_update": "1/28/2022"
-    },
-    {
-        "model": "WSISMT",
-        "manufacturer": "Worth",
-        "name": "Mutation SIS",
-        "status": "APPROVED",
-        "last_update": "3/1/2018"
-    },
-    {
         "model": "Vanquish-FPVQSH2K8",
         "manufacturer": "Adidas",
         "name": "by Dick's Sporting Goods",
@@ -458,8 +348,43 @@
         "last_update": "8/13/2008"
     },
     {
+        "model": "Catapult Black",
+        "manufacturer": "Akadema",
+        "name": "",
+        "status": "APPROVED",
+        "last_update": "9/16/2009"
+    },
+    {
+        "model": "Xtension",
+        "manufacturer": "Akadema",
+        "name": "",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
+        "model": "Xtension Catapult",
+        "manufacturer": "Akadema",
+        "name": "",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
         "model": "Xtension Catapult Hybrid",
         "manufacturer": "Akadema",
+        "name": "",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
+        "model": "ACL-XO7FP",
+        "manufacturer": "Albin Athletics",
+        "name": "",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
+        "model": "ACL-XO7SP",
+        "manufacturer": "Albin Athletics",
         "name": "",
         "status": "APPROVED",
         "last_update": "8/13/2008"
@@ -1480,9 +1405,37 @@
         "last_update": "4/8/2024"
     },
     {
+        "model": "ASPDELIC26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "PSYHEDELICV2",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPDELIC26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "PSYHEDELIC V2 (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPDIA26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "DIA DELOSMUERTOS",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPDIA26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "DIA DE LOS MUERTOS (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
         "model": "ASPDMN24A",
         "manufacturer": "Anarchy Bats",
-        "name": "Demon",
+        "name": "DEMON",
         "status": "APPROVED",
         "last_update": "10/22/2024"
     },
@@ -1524,7 +1477,7 @@
     {
         "model": "ASPDONT26A",
         "manufacturer": "Anarchy Bats",
-        "name": "DON\u63a2 BLINK",
+        "name": "DON\u0092T BLINK",
         "status": "APPROVED",
         "last_update": "5/6/2026"
     },
@@ -1648,11 +1601,32 @@
         "last_update": "7/30/2025"
     },
     {
+        "model": "ASPGOAT26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "GOAT WHITE",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPGOAT26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "GOAT WHITE (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
         "model": "ASPGOATB25A",
         "manufacturer": "Anarchy Bats",
         "name": "GOAT BALANCED",
         "status": "APPROVED",
         "last_update": "7/30/2025"
+    },
+    {
+        "model": "ASPGOATB26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "GOAT PURPLE 1PC",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPGOD26A",
@@ -1674,6 +1648,20 @@
         "name": "GROOVY",
         "status": "APPROVED",
         "last_update": "2/18/2025"
+    },
+    {
+        "model": "ASPGROOV26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "GROOVY",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPGROOV26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "GROOVY (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPGRP25A-1",
@@ -1711,11 +1699,32 @@
         "last_update": "5/6/2026"
     },
     {
+        "model": "ASPHEF26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "TOO HEFTY (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
         "model": "ASPHEF2SA",
         "manufacturer": "Anarchy Bats",
         "name": "TOO HEFTY",
         "status": "APPROVED",
         "last_update": "7/30/2025"
+    },
+    {
+        "model": "ASPHFIR26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "HELLFIRE CLUB",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPHFIR26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "HELLFIRE CLUB (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPHUM26A",
@@ -1825,7 +1834,7 @@
     {
         "model": "ASPMCQ25A",
         "manufacturer": "Anarchy Bats",
-        "name": "MCQUADES 12\ufffd",
+        "name": "MCQUADES 12\u0094",
         "status": "APPROVED",
         "last_update": "4/4/2025"
     },
@@ -1942,6 +1951,20 @@
         "last_update": "7/30/2025"
     },
     {
+        "model": "ASPPGSKN26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "PIGSKIN",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPPGSKN26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "PIGSKIN (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
         "model": "ASPPIT24A",
         "manufacturer": "Anarchy Bats",
         "name": "PITBULL",
@@ -1954,6 +1977,20 @@
         "name": "POSEIDON",
         "status": "APPROVED",
         "last_update": "2/18/2025"
+    },
+    {
+        "model": "ASPPSYCH26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "PSYCHEDELIC VI",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPPSYCH26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "PSYCHEDELIC VI (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPPX24A",
@@ -1989,6 +2026,20 @@
         "name": "ROSA REAPER",
         "status": "APPROVED",
         "last_update": "1/27/2026"
+    },
+    {
+        "model": "ASPROSA26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "ROSA REAPER",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPROSA26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "ROSA REAPER (Heavy)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPRTS25A",
@@ -2059,6 +2110,34 @@
         "name": "SLICK",
         "status": "APPROVED",
         "last_update": "1/27/2026"
+    },
+    {
+        "model": "ASPSLKG26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "SLICK v2",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPSLKG26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "SLICK v2 (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPSPEC26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "WAR READY SPEC OPS",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPSPEC26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "WAR READY SPEC OPS (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPSTAZ5A",
@@ -2180,6 +2259,20 @@
         "last_update": "10/22/2024"
     },
     {
+        "model": "ASPUBR26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "UNBROKEN ROSE",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPUBR26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "UMBROKEN ROSE (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
         "model": "ASPUSA26A",
         "manufacturer": "Anarchy Bats",
         "name": "AMERICA",
@@ -2192,6 +2285,13 @@
         "name": "AMERICA HEAVY",
         "status": "APPROVED",
         "last_update": "5/6/2026"
+    },
+    {
+        "model": "ASPWAD26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "BLOODLINE",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPWHA25A",
@@ -2213,6 +2313,20 @@
         "name": "WET N WILD",
         "status": "APPROVED",
         "last_update": "1/27/2026"
+    },
+    {
+        "model": "ASPWNW26A",
+        "manufacturer": "Anarchy Bats",
+        "name": "WET N WILD",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
+    },
+    {
+        "model": "ASPWNW26A-H",
+        "manufacturer": "Anarchy Bats",
+        "name": "WET N WILD (HEAVY)",
+        "status": "APPROVED",
+        "last_update": "7/21/2026"
     },
     {
         "model": "ASPXMAS2SA",
@@ -2257,595 +2371,595 @@
         "last_update": "3/4/2020"
     },
     {
-        "model": "11002",
+        "model": "011002",
         "manufacturer": "Anderson Bat Company",
         "name": "TechWrap",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11003",
+        "model": "011003",
         "manufacturer": "Anderson Bat Company",
         "name": "WrapTech",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11004",
+        "model": "011004",
         "manufacturer": "Anderson Bat Company",
         "name": "FlexTech",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11005",
+        "model": "011005",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketTech",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11006",
+        "model": "011006",
         "manufacturer": "Anderson Bat Company",
         "name": "Techzilla",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11009",
+        "model": "011009",
         "manufacturer": "Anderson Bat Company",
         "name": "Pyrotech",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11010",
+        "model": "011010",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocket Tech Composite Killer",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11011",
+        "model": "011011",
         "manufacturer": "Anderson Bat Company",
         "name": "Techzilla Composite Killer",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11012",
+        "model": "011012",
         "manufacturer": "Anderson Bat Company",
         "name": "PyroTech SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11013",
+        "model": "011013",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11014",
+        "model": "011014",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11015",
+        "model": "011015",
         "manufacturer": "Anderson Bat Company",
         "name": "PyroTech SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11016",
+        "model": "011016",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTeck SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11017",
+        "model": "011017",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11018",
+        "model": "011018",
         "manufacturer": "Anderson Bat Company",
         "name": "Matrix SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11019",
+        "model": "011019",
         "manufacturer": "Anderson Bat Company",
         "name": "PyroTech SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11020",
+        "model": "011020",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketTech SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11021",
+        "model": "011021",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla SP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "11023",
+        "model": "011023",
         "manufacturer": "Anderson Bat Company",
         "name": "KSP",
         "status": "APPROVED",
         "last_update": "4/9/2010"
     },
     {
-        "model": "11024",
+        "model": "011024",
         "manufacturer": "Anderson Bat Company",
         "name": "RockTech SP",
         "status": "APPROVED",
         "last_update": "5/28/2009"
     },
     {
-        "model": "11027",
+        "model": "011027",
         "manufacturer": "Anderson Bat Company",
         "name": "NanoTek SPA",
         "status": "APPROVED",
         "last_update": "10/13/2009"
     },
     {
-        "model": "11028",
+        "model": "011028",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech SP",
         "status": "APPROVED",
         "last_update": "4/9/2010"
     },
     {
-        "model": "11029",
+        "model": "011029",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla SP",
         "status": "APPROVED",
         "last_update": "4/9/2010"
     },
     {
-        "model": "11030",
+        "model": "011030",
         "manufacturer": "Anderson Bat Company",
         "name": "NanoTek SP Alpha",
         "status": "APPROVED",
         "last_update": "2/9/2012"
     },
     {
-        "model": "11031",
+        "model": "011031",
         "manufacturer": "Anderson Bat Company",
         "name": "NanoTek SP Omega",
         "status": "APPROVED",
         "last_update": "2/9/2012"
     },
     {
-        "model": "11032",
+        "model": "011032",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketTech SP",
         "status": "APPROVED",
         "last_update": "2/8/2012"
     },
     {
-        "model": "11033",
+        "model": "011033",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla SP",
         "status": "APPROVED",
         "last_update": "2/8/2012"
     },
     {
-        "model": "11034",
+        "model": "011034",
         "manufacturer": "Anderson Bat Company",
         "name": "Ignite SP",
         "status": "APPROVED",
         "last_update": "2/8/2012"
     },
     {
-        "model": "11035",
+        "model": "011035",
         "manufacturer": "Anderson Bat Company",
         "name": "FlexZilla SP",
         "status": "APPROVED",
         "last_update": "1/17/2013"
     },
     {
-        "model": "11036",
+        "model": "011036",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketFlex SP",
         "status": "APPROVED",
         "last_update": "1/17/2013"
     },
     {
-        "model": "11037",
+        "model": "011037",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech SP",
         "status": "APPROVED",
         "last_update": "8/27/2014"
     },
     {
-        "model": "11038",
+        "model": "011038",
         "manufacturer": "Anderson Bat Company",
         "name": "Ambush SP",
         "status": "APPROVED",
         "last_update": "6/16/2015"
     },
     {
-        "model": "11039",
+        "model": "011039",
         "manufacturer": "Anderson Bat Company",
         "name": "Flex",
         "status": "APPROVED",
         "last_update": "8/15/2014"
     },
     {
-        "model": "11040",
+        "model": "011040",
         "manufacturer": "Anderson Bat Company",
         "name": "Ambush",
         "status": "APPROVED",
         "last_update": "8/15/2014"
     },
     {
-        "model": "11041",
+        "model": "011041",
         "manufacturer": "Anderson Bat Company",
         "name": "Ambush Slow Pitch",
         "status": "APPROVED",
         "last_update": "4/4/2016"
     },
     {
-        "model": "11042",
+        "model": "011042",
         "manufacturer": "Anderson Bat Company",
         "name": "Flex SP",
         "status": "APPROVED",
         "last_update": "7/14/2016"
     },
     {
-        "model": "11043",
+        "model": "011043",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech SP",
         "status": "APPROVED",
         "last_update": "7/14/2016"
     },
     {
-        "model": "11044",
+        "model": "011044",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Slow Pitch",
         "status": "APPROVED",
         "last_update": "10/9/2017"
     },
     {
-        "model": "11045",
+        "model": "011045",
         "manufacturer": "Anderson Bat Company",
         "name": "Flex",
         "status": "APPROVED",
         "last_update": "10/9/2017"
     },
     {
-        "model": "11046",
+        "model": "011046",
         "manufacturer": "Anderson Bat Company",
         "name": "Ambush",
         "status": "APPROVED",
         "last_update": "10/9/2017"
     },
     {
-        "model": "11047",
+        "model": "011047",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketch",
         "status": "APPROVED",
         "last_update": "6/27/2019"
     },
     {
-        "model": "11048",
+        "model": "011048",
         "manufacturer": "Anderson Bat Company",
         "name": "Flex",
         "status": "APPROVED",
         "last_update": "6/27/2019"
     },
     {
-        "model": "11049",
+        "model": "011049",
         "manufacturer": "Anderson Bat Company",
         "name": "Ambush",
         "status": "APPROVED",
         "last_update": "6/27/2019"
     },
     {
-        "model": "17001",
+        "model": "017001",
         "manufacturer": "Anderson Bat Company",
         "name": "FastTech",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17004",
+        "model": "017004",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17005",
+        "model": "017005",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17006",
+        "model": "017006",
         "manufacturer": "Anderson Bat Company",
         "name": "Pyrotech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17007",
+        "model": "017007",
         "manufacturer": "Anderson Bat Company",
         "name": "2007 RocketTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17008",
+        "model": "017008",
         "manufacturer": "Anderson Bat Company",
         "name": "PyroTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17009",
+        "model": "017009",
         "manufacturer": "Anderson Bat Company",
         "name": "PyroTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17011",
+        "model": "017011",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17012",
+        "model": "017012",
         "manufacturer": "Anderson Bat Company",
         "name": "PyroTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17013",
+        "model": "017013",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla FP",
         "status": "APPROVED",
         "last_update": "8/13/2008"
     },
     {
-        "model": "17014",
+        "model": "017014",
         "manufacturer": "Anderson Bat Company",
         "name": "2009 RocketTech FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17015",
+        "model": "017015",
         "manufacturer": "Anderson Bat Company",
         "name": "Techzilla FP",
         "status": "APPROVED",
         "last_update": "6/4/2010"
     },
     {
-        "model": "17016",
+        "model": "017016",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech FP",
         "status": "APPROVED",
         "last_update": "5/28/2009"
     },
     {
-        "model": "17017",
+        "model": "017017",
         "manufacturer": "Anderson Bat Company",
         "name": "KFP",
         "status": "APPROVED",
         "last_update": "4/9/2010"
     },
     {
-        "model": "17018",
+        "model": "017018",
         "manufacturer": "Anderson Bat Company",
         "name": "NanoTek FP",
         "status": "APPROVED",
         "last_update": "4/19/2010"
     },
     {
-        "model": "17019",
+        "model": "017019",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech FP",
         "status": "APPROVED",
         "last_update": "4/9/2010"
     },
     {
-        "model": "17020",
+        "model": "017020",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla FP",
         "status": "APPROVED",
         "last_update": "4/9/2010"
     },
     {
-        "model": "17022",
+        "model": "017022",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketTech FP -9",
         "status": "APPROVED",
         "last_update": "2/8/2012"
     },
     {
-        "model": "17023",
+        "model": "017023",
         "manufacturer": "Anderson Bat Company",
         "name": "NanoTek FP -10",
         "status": "APPROVED",
         "last_update": "2/9/2012"
     },
     {
-        "model": "17024",
+        "model": "017024",
         "manufacturer": "Anderson Bat Company",
         "name": "TechZilla FP -10",
         "status": "APPROVED",
         "last_update": "2/8/2012"
     },
     {
-        "model": "17025",
+        "model": "017025",
         "manufacturer": "Anderson Bat Company",
         "name": "Ignite FP -11",
         "status": "APPROVED",
         "last_update": "2/8/2012"
     },
     {
-        "model": "17026",
+        "model": "017026",
         "manufacturer": "Anderson Bat Company",
         "name": "NanoTek FP -12",
         "status": "APPROVED",
         "last_update": "2/9/2012"
     },
     {
-        "model": "17027",
+        "model": "017027",
         "manufacturer": "Anderson Bat Company",
         "name": "FlexZilla FP",
         "status": "APPROVED",
         "last_update": "1/17/2013"
     },
     {
-        "model": "17028",
+        "model": "017028",
         "manufacturer": "Anderson Bat Company",
         "name": "RocketFlex FP",
         "status": "APPROVED",
         "last_update": "1/17/2013"
     },
     {
-        "model": "17029",
+        "model": "017029",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech FP",
         "status": "APPROVED",
         "last_update": "8/27/2014"
     },
     {
-        "model": "17030",
+        "model": "017030",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova FP",
         "status": "APPROVED",
         "last_update": "10/2/2014"
     },
     {
-        "model": "17031",
+        "model": "017031",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova 2.0 FP -10",
         "status": "APPROVED",
         "last_update": "9/15/2015"
     },
     {
-        "model": "17032",
+        "model": "017032",
         "manufacturer": "Anderson Bat Company",
         "name": "Rockettech Youth FP -12",
         "status": "APPROVED",
         "last_update": "9/15/2015"
     },
     {
-        "model": "17033",
+        "model": "017033",
         "manufacturer": "Anderson Bat Company",
         "name": "RockeTech FP",
         "status": "APPROVED",
         "last_update": "7/14/2016"
     },
     {
-        "model": "17034",
+        "model": "017034",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Fast Pitch -9",
         "status": "APPROVED",
         "last_update": "10/3/2017"
     },
     {
-        "model": "17035",
+        "model": "017035",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova Fastpitch (-10)",
         "status": "APPROVED",
         "last_update": "10/3/2017"
     },
     {
-        "model": "17036",
+        "model": "017036",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Youth (-12)",
         "status": "APPROVED",
         "last_update": "10/3/2017"
     },
     {
-        "model": "17037",
+        "model": "017037",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Fast Pitch -9",
         "status": "APPROVED",
         "last_update": "9/10/2018"
     },
     {
-        "model": "17038",
+        "model": "017038",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova Fast Pitch -10",
         "status": "APPROVED",
         "last_update": "9/10/2018"
     },
     {
-        "model": "17039",
+        "model": "017039",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Youth FP -12",
         "status": "APPROVED",
         "last_update": "9/10/2018"
     },
     {
-        "model": "17040",
+        "model": "017040",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova -11",
         "status": "APPROVED",
         "last_update": "6/26/2019"
     },
     {
-        "model": "17042",
+        "model": "017042",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Fastpitch -9",
         "status": "APPROVED",
         "last_update": "6/26/2019"
     },
     {
-        "model": "17043",
+        "model": "017043",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova -10",
         "status": "APPROVED",
         "last_update": "6/26/2019"
     },
     {
-        "model": "17044",
+        "model": "017044",
         "manufacturer": "Anderson Bat Company",
         "name": "Supernova Flash -11",
         "status": "APPROVED",
         "last_update": "6/26/2019"
     },
     {
-        "model": "17045",
+        "model": "017045",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Flash -12",
         "status": "APPROVED",
         "last_update": "6/26/2019"
     },
     {
-        "model": "17051",
+        "model": "017051",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Carbon",
         "status": "APPROVED",
         "last_update": "12/16/2022"
     },
     {
-        "model": "17080",
+        "model": "017080",
         "manufacturer": "Anderson Bat Company",
         "name": "Rocketech Carbon",
         "status": "APPROVED",
@@ -3496,6 +3610,13 @@
         "last_update": "9/8/2014"
     },
     {
+        "model": "MAB3",
+        "manufacturer": "Boombah",
+        "name": "7am",
+        "status": "APPROVED",
+        "last_update": "6/19/2026"
+    },
+    {
         "model": "SPBAEL",
         "manufacturer": "Boombah",
         "name": "Boss",
@@ -3636,6 +3757,13 @@
         "last_update": "8/4/2010"
     },
     {
+        "model": "B1SP2",
+        "manufacturer": "Combat",
+        "name": "B198 Signature Series",
+        "status": "APPROVED",
+        "last_update": "8/4/2010"
+    },
+    {
         "model": "BUBSP3",
         "manufacturer": "Combat",
         "name": "Bubba ASA",
@@ -3685,6 +3813,27 @@
         "last_update": "7/10/2025"
     },
     {
+        "model": "CSA6BJCSTL-25",
+        "manufacturer": "Combat",
+        "name": "COSTAL - Badman",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "CSA6BJCSTL-26",
+        "manufacturer": "Combat",
+        "name": "COSTAL - Badman",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "CSA6BJCSTL-27",
+        "manufacturer": "Combat",
+        "name": "COSTAL - Badman",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
         "model": "CSA6BLBKL-25",
         "manufacturer": "Combat",
         "name": "SPEC CR1",
@@ -3729,21 +3878,21 @@
     {
         "model": "CSA6OBJ1L-25",
         "manufacturer": "Combat",
-        "name": "Outdoor \ufffd Bradley Jones",
+        "name": "Outdoor \u0096 Bradley Jones",
         "status": "APPROVED",
         "last_update": "3/12/2026"
     },
     {
         "model": "CSA6OBJ1L-26",
         "manufacturer": "Combat",
-        "name": "Outdoor \ufffd Bradley Jones",
+        "name": "Outdoor \u0096 Bradley Jones",
         "status": "APPROVED",
         "last_update": "3/12/2026"
     },
     {
         "model": "CSA6OBJ1L-27",
         "manufacturer": "Combat",
-        "name": "Outdoor \ufffd Bradley Jones",
+        "name": "Outdoor \u0096 Bradley Jones",
         "status": "APPROVED",
         "last_update": "3/12/2026"
     },
@@ -3786,6 +3935,13 @@
         "model": "DBGSP6",
         "manufacturer": "Combat",
         "name": "Derby Girls 275",
+        "status": "APPROVED",
+        "last_update": "3/10/2016"
+    },
+    {
+        "model": "DBGSP6",
+        "manufacturer": "Combat",
+        "name": "Team Combat Chris Greinert 275",
         "status": "APPROVED",
         "last_update": "6/26/2015"
     },
@@ -4193,6 +4349,13 @@
         "manufacturer": "Combat",
         "name": "Combatant Team Combat 275",
         "status": "APPROVED",
+        "last_update": "3/10/2016"
+    },
+    {
+        "model": "TC275B",
+        "manufacturer": "Combat",
+        "name": "Team Combat 275",
+        "status": "APPROVED",
         "last_update": "6/26/2015"
     },
     {
@@ -4220,6 +4383,13 @@
         "model": "TCRSP4",
         "manufacturer": "Combat",
         "name": "Team Combat Case Rogowski ASA",
+        "status": "APPROVED",
+        "last_update": "3/10/2016"
+    },
+    {
+        "model": "TCRSP4",
+        "manufacturer": "Combat",
+        "name": "Team Combat Casey Rogowski ASA",
         "status": "APPROVED",
         "last_update": "6/26/2015"
     },
@@ -4508,6 +4678,13 @@
         "manufacturer": "DeMarini",
         "name": "EVO Fastpitch (Blue)",
         "status": "APPROVED",
+        "last_update": "8/20/2008"
+    },
+    {
+        "model": "",
+        "manufacturer": "DeMarini",
+        "name": "F2-2003 (Red)",
+        "status": "APPROVED",
         "last_update": "6/18/2007"
     },
     {
@@ -4609,6 +4786,13 @@
         "last_update": "5/4/2010"
     },
     {
+        "model": "BTS-28",
+        "manufacturer": "DeMarini",
+        "name": "Protocol",
+        "status": "APPROVED",
+        "last_update": "11/20/2026"
+    },
+    {
         "model": "Cat -11",
         "manufacturer": "DeMarini",
         "name": "DXCTF",
@@ -4690,6 +4874,13 @@
         "manufacturer": "DeMarini",
         "name": "CF3 Black (-8)",
         "status": "APPROVED",
+        "last_update": "5/23/2008"
+    },
+    {
+        "model": "CF8",
+        "manufacturer": "DeMarini",
+        "name": "CF4(-8)",
+        "status": "APPROVED",
         "last_update": "4/30/2009"
     },
     {
@@ -4717,6 +4908,13 @@
         "model": "CF8-17 CSTM",
         "manufacturer": "DeMarini",
         "name": "CF8 -8 (CUSTOM)",
+        "status": "APPROVED",
+        "last_update": "5/3/2017"
+    },
+    {
+        "model": "CF8-17 CSTM",
+        "manufacturer": "DeMarini",
+        "name": "CF8 -8 Custom",
         "status": "APPROVED",
         "last_update": "3/8/2016"
     },
@@ -4816,6 +5014,13 @@
         "manufacturer": "DeMarini",
         "name": "CF9 SLAPPER -10 (CUSTOM)",
         "status": "APPROVED",
+        "last_update": "5/3/2017"
+    },
+    {
+        "model": "CFA-17 CSTM",
+        "manufacturer": "DeMarini",
+        "name": "CF9 Slapper -10 Custom",
+        "status": "APPROVED",
         "last_update": "3/4/2016"
     },
     {
@@ -4851,6 +5056,13 @@
         "manufacturer": "DeMarini",
         "name": "CF3 Black (-9)",
         "status": "APPROVED",
+        "last_update": "8/20/2008"
+    },
+    {
+        "model": "CFF",
+        "manufacturer": "DeMarini",
+        "name": "CF4(-9)",
+        "status": "APPROVED",
         "last_update": "4/30/2009"
     },
     {
@@ -4878,6 +5090,13 @@
         "model": "CFF-17 CSTM",
         "manufacturer": "DeMarini",
         "name": "CF9 -9 (CUSTOM)",
+        "status": "APPROVED",
+        "last_update": "5/3/2017"
+    },
+    {
+        "model": "CFF-17 CSTM",
+        "manufacturer": "DeMarini",
+        "name": "CF9 -9 Custom",
         "status": "APPROVED",
         "last_update": "3/4/2016"
     },
@@ -5061,6 +5280,13 @@
         "manufacturer": "DeMarini",
         "name": "CF Hope (-10)",
         "status": "APPROVED",
+        "last_update": "4/30/2015"
+    },
+    {
+        "model": "CFH-16",
+        "manufacturer": "DeMarini",
+        "name": "CF8 (-10) Hope",
+        "status": "APPROVED",
         "last_update": "5/24/2015"
     },
     {
@@ -5158,6 +5384,13 @@
         "model": "CFI-17 CSTM",
         "manufacturer": "DeMarini",
         "name": "CF9 INSANE -10 (CUSTOM)",
+        "status": "APPROVED",
+        "last_update": "5/3/2017"
+    },
+    {
+        "model": "CFI-17 CSTM",
+        "manufacturer": "DeMarini",
+        "name": "CF9 Insane -10 Custom",
         "status": "APPROVED",
         "last_update": "3/4/2016"
     },
@@ -5276,7 +5509,7 @@
     {
         "model": "CFP-16F1",
         "manufacturer": "DeMarini",
-        "name": "Delta Force CF8",
+        "name": "DELTA FORCE CF8",
         "status": "APPROVED",
         "last_update": "5/3/2017"
     },
@@ -5285,7 +5518,7 @@
         "manufacturer": "DeMarini",
         "name": "DELTA FORCE CF8",
         "status": "APPROVED",
-        "last_update": "3/4/2016"
+        "last_update": "5/3/2017"
     },
     {
         "model": "CFP-17",
@@ -5298,6 +5531,13 @@
         "model": "CFP-17 CSTM",
         "manufacturer": "DeMarini",
         "name": "CF9 -10 (CUSTOM)",
+        "status": "APPROVED",
+        "last_update": "5/3/2017"
+    },
+    {
+        "model": "CFP-17 CSTM",
+        "manufacturer": "DeMarini",
+        "name": "CF9 -10 Custom",
         "status": "APPROVED",
         "last_update": "3/4/2016"
     },
@@ -5613,6 +5853,13 @@
         "model": "CFPS-FE",
         "manufacturer": "DeMarini",
         "name": "CF FE",
+        "status": "APPROVED",
+        "last_update": "11/8/2024"
+    },
+    {
+        "model": "CFPS-FE",
+        "manufacturer": "DeMarini",
+        "name": "CF FE (-10)",
         "status": "APPROVED",
         "last_update": "11/8/2024"
     },
@@ -6863,6 +7110,13 @@
         "last_update": "4/10/2026"
     },
     {
+        "model": "MS2-28",
+        "manufacturer": "DeMarini",
+        "name": "Merciless",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
         "model": "MSP-14",
         "manufacturer": "DeMarini",
         "name": "Mercy",
@@ -7206,6 +7460,13 @@
         "last_update": "11/11/2025"
     },
     {
+        "model": "NTE-28",
+        "manufacturer": "DeMarini",
+        "name": "Juggy Extended",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
         "model": "OM2-17",
         "manufacturer": "DeMarini",
         "name": "Omega II/Phenix Edition/End Loaded",
@@ -7482,6 +7743,13 @@
         "model": "PZP-21",
         "manufacturer": "DeMarini",
         "name": "Prism (-10)",
+        "status": "APPROVED",
+        "last_update": "3/31/2021"
+    },
+    {
+        "model": "PZP-21",
+        "manufacturer": "DeMarini",
+        "name": "Prism (-10) Black",
         "status": "APPROVED",
         "last_update": "3/4/2022"
     },
@@ -7763,6 +8031,13 @@
         "manufacturer": "DeMarini",
         "name": "Sprite (-11)",
         "status": "APPROVED",
+        "last_update": "3/31/2021"
+    },
+    {
+        "model": "SPF-21",
+        "manufacturer": "DeMarini",
+        "name": "Sprite (-12)",
+        "status": "APPROVED",
         "last_update": "11/5/2021"
     },
     {
@@ -8025,6 +8300,13 @@
         "last_update": "11/11/2025"
     },
     {
+        "model": "VB8-27S",
+        "manufacturer": "DeMarini",
+        "name": "Vizion Silver (-8)",
+        "status": "APPROVED",
+        "last_update": "8/16/2026"
+    },
+    {
         "model": "VBF-27",
         "manufacturer": "DeMarini",
         "name": "Vizion (-9)",
@@ -8037,6 +8319,13 @@
         "name": "Vizion (-9) Custom",
         "status": "APPROVED",
         "last_update": "11/11/2025"
+    },
+    {
+        "model": "VBF-27S",
+        "manufacturer": "DeMarini",
+        "name": "Vizion Silver (-9)",
+        "status": "APPROVED",
+        "last_update": "8/16/2026"
     },
     {
         "model": "VBP-27",
@@ -8053,6 +8342,13 @@
         "last_update": "11/11/2025"
     },
     {
+        "model": "VBP-27S",
+        "manufacturer": "DeMarini",
+        "name": "Vizion Silver (-10)",
+        "status": "APPROVED",
+        "last_update": "8/16/2026"
+    },
+    {
         "model": "VBPS-27",
         "manufacturer": "DeMarini",
         "name": "Vizion (-10)",
@@ -8065,6 +8361,27 @@
         "name": "Vizion (-10) Custom",
         "status": "APPROVED",
         "last_update": "11/11/2025"
+    },
+    {
+        "model": "VBPS-27S",
+        "manufacturer": "DeMarini",
+        "name": "Vizion Silver (-10)",
+        "status": "APPROVED",
+        "last_update": "8/16/2026"
+    },
+    {
+        "model": "VBS-27S",
+        "manufacturer": "DeMarini",
+        "name": "Vizion Silver (-11)",
+        "status": "APPROVED",
+        "last_update": "8/16/2026"
+    },
+    {
+        "model": "VBSS-27S",
+        "manufacturer": "DeMarini",
+        "name": "Vizion Silver (-11",
+        "status": "APPROVED",
+        "last_update": "8/16/2026"
     },
     {
         "model": "VCF-17",
@@ -9054,6 +9371,552 @@
         "last_update": "7/17/2025"
     },
     {
+        "model": "EFP6GUD10-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD11-29",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD8-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD8-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD9-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUD9-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the DREAMY one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF10-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF11-29",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF8-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF8-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF9-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUF9-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the FIERCE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP10-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP11-29",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUP11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the PURE one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR10-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR11-29",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUR11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the RADIANT one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW10-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW11-29",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GUW11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Unlimited ERA - the WILD one",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GYD11",
+        "manufacturer": "Easton",
+        "name": "GHOST YOUTH ERA - DREAMY",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP6GYW11",
+        "manufacturer": "Easton",
+        "name": "GHOST YOUTH - WILD",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "EFP7GALE10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GALE10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GALE10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GALE10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GALE11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GALE11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GALE11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced Launch Edition -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD10-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD10-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD10-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD10-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD10-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -10",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD11-28",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD11-29",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD11-30",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD11-31",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD11-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD11-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -11",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD8-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -8",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD8-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -8",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD9-32",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -9",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD9-33",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -9",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7GHAD9-34",
+        "manufacturer": "Easton",
+        "name": "Ghost Advanced -9",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
         "model": "EFP7GHOG10-30",
         "manufacturer": "Easton",
         "name": "GHOST OG -10",
@@ -9159,6 +10022,230 @@
         "last_update": "11/13/2025"
     },
     {
+        "model": "EFP7GYP11",
+        "manufacturer": "Easton",
+        "name": "GHOST YOUTH PINK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ10-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ10-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ10-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ10-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ10-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ11-29",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ11-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ11-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ11-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ8-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ8-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ9-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCJ9-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Cherry Jam",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP10-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP10-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP10-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP10-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP10-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP11-29",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP11-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP11-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGCP11-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Candy Pink",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC10-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC10-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC10-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC10-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC10-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC11-29",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC11-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC11-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGDC11-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Dark Chocolate",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
         "model": "EFP7OGLE10-31",
         "manufacturer": "Easton",
         "name": "GHOST OG Launch Edition -10",
@@ -9206,6 +10293,104 @@
         "name": "GHOST OG Launch Edition -11",
         "status": "APPROVED",
         "last_update": "11/13/2025"
+    },
+    {
+        "model": "EFP7OGTM10-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM10-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM10-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM10-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM10-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM11-29",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM11-30",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM11-31",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM11-32",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM8-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM8-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM9-33",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7OGTM9-34",
+        "manufacturer": "Easton",
+        "name": "GHOST OG - Toasted Marshmallow",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "EFP7SR11",
+        "manufacturer": "Easton",
+        "name": "GHOST YOUTH \u0096 SUGAR RUSH",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
     },
     {
         "model": "ESA3ALL-24",
@@ -9341,6 +10526,27 @@
         "last_update": "5/24/2025"
     },
     {
+        "model": "ESA6ALL-25",
+        "manufacturer": "Easton",
+        "name": "ALPHA",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA6ALL-26",
+        "manufacturer": "Easton",
+        "name": "ALPHA",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA6ALL-27",
+        "manufacturer": "Easton",
+        "name": "ALPHA",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
         "model": "ESA6HFL-25",
         "manufacturer": "Easton",
         "name": "HYPE FIRE",
@@ -9402,6 +10608,27 @@
         "name": "TANTRUM",
         "status": "APPROVED",
         "last_update": "11/13/2025"
+    },
+    {
+        "model": "ESA6SYN1L-25",
+        "manufacturer": "Easton",
+        "name": "SYNERGY",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA6SYN1L-26",
+        "manufacturer": "Easton",
+        "name": "SYNERGY",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA6SYN1L-27",
+        "manufacturer": "Easton",
+        "name": "SYNERGY",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
     },
     {
         "model": "ESA6TMNTL-25",
@@ -9486,6 +10713,174 @@
         "name": "TANTRUM",
         "status": "APPROVED",
         "last_update": "11/13/2025"
+    },
+    {
+        "model": "ESA6TNTTL-25",
+        "manufacturer": "Easton",
+        "name": "TNT TROPIC",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA6TNTTL-26",
+        "manufacturer": "Easton",
+        "name": "TNT TROPIC",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA6TNTTL-27",
+        "manufacturer": "Easton",
+        "name": "TNT TROPIC",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "ESA7AMTL-25",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7AMTL-26",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7AMTL-27",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7HBTL-25",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7HBTL-26",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "ESA7HBTL-27",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "ESA7HFL-25",
+        "manufacturer": "Easton",
+        "name": "HYPE FIRE",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7HFL-26",
+        "manufacturer": "Easton",
+        "name": "HYPE FIRE",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7HFL-27",
+        "manufacturer": "Easton",
+        "name": "HYPE FIRE",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7MRSHL-25",
+        "manufacturer": "Easton",
+        "name": "MARSH",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7MRSHL-26",
+        "manufacturer": "Easton",
+        "name": "MARSH",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7MRSHL-27",
+        "manufacturer": "Easton",
+        "name": "MARSH",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7SISTL-25",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7SISTL-26",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7SISTL-27",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7TNT1B-25",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7TNT1B-26",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7TNT1B-27",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7TNTL-25",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7TNTL-26",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "ESA7TNTL-27",
+        "manufacturer": "Easton",
+        "name": "TANTRUM",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
     },
     {
         "model": "ESD4HML",
@@ -10283,7 +11678,7 @@
         "manufacturer": "Easton",
         "name": "Ghost -10",
         "status": "APPROVED",
-        "last_update": "1/6/2021"
+        "last_update": "7/12/2021"
     },
     {
         "model": "FP22GH11",
@@ -10706,6 +12101,13 @@
         "last_update": "8/13/2008"
     },
     {
+        "model": "SK12",
+        "manufacturer": "Easton",
+        "name": "X-Treme",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
         "model": "SK15",
         "manufacturer": "Easton",
         "name": "X-Treme",
@@ -10744,6 +12146,13 @@
         "model": "SK26",
         "manufacturer": "Easton",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
+        "model": "SK26",
+        "manufacturer": "Easton",
+        "name": "Easton -10",
         "status": "APPROVED",
         "last_update": "3/23/2010"
     },
@@ -10934,7 +12343,7 @@
         "manufacturer": "Easton",
         "name": "Hammer",
         "status": "APPROVED",
-        "last_update": "8/13/2008"
+        "last_update": "3/23/2010"
     },
     {
         "model": "SK50B",
@@ -11928,7 +13337,7 @@
         "manufacturer": "Easton",
         "name": "",
         "status": "APPROVED",
-        "last_update": "8/20/2008"
+        "last_update": "10/7/2008"
     },
     {
         "model": "SRV3",
@@ -11948,6 +13357,13 @@
         "model": "SRV3B",
         "manufacturer": "Easton",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "10/7/2008"
+    },
+    {
+        "model": "SRV3B",
+        "manufacturer": "Easton",
+        "name": "Synergy Clarity -8",
         "status": "APPROVED",
         "last_update": "10/10/2008"
     },
@@ -12092,6 +13508,13 @@
         "last_update": "8/13/2008"
     },
     {
+        "model": "SRX9G",
+        "manufacturer": "Easton",
+        "name": "Reflex Todd Joerling",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
         "model": "SRX9GX",
         "manufacturer": "Easton",
         "name": "Reflex Todd Joerling",
@@ -12116,6 +13539,13 @@
         "model": "SSR1B",
         "manufacturer": "Easton",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/20/2008"
+    },
+    {
+        "model": "SSR1B",
+        "manufacturer": "Easton",
+        "name": "Stealth Clarity -10",
         "status": "APPROVED",
         "last_update": "10/10/2008"
     },
@@ -12596,6 +14026,13 @@
         "last_update": "8/13/2008"
     },
     {
+        "model": "SX50",
+        "manufacturer": "Easton",
+        "name": "Reflex",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
         "model": "SX50B",
         "manufacturer": "Easton",
         "name": "",
@@ -12691,6 +14128,13 @@
         "manufacturer": "Easton",
         "name": "",
         "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
+        "model": "SX71",
+        "manufacturer": "Easton",
+        "name": "Reflex",
+        "status": "APPROVED",
         "last_update": "3/23/2010"
     },
     {
@@ -12753,6 +14197,13 @@
         "model": "SX95",
         "manufacturer": "Easton",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/13/2008"
+    },
+    {
+        "model": "SX95",
+        "manufacturer": "Easton",
+        "name": "React 95",
         "status": "APPROVED",
         "last_update": "8/13/2008"
     },
@@ -13016,6 +14467,13 @@
         "last_update": "8/13/2008"
     },
     {
+        "model": "EHPSP2R-27",
+        "manufacturer": "EHP",
+        "name": "ROWDY",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
         "model": "GSCAS1",
         "manufacturer": "Gates Sports Company",
         "name": "Spirit",
@@ -13202,7 +14660,7 @@
         "manufacturer": "Louisville Slugger",
         "name": "2027 CUSTOM KRYO2 (-10)",
         "status": "APPROVED",
-        "last_update": "11/16/2025"
+        "last_update": "2/16/2026"
     },
     {
         "model": "CFPKR211-27V",
@@ -13705,6 +15163,13 @@
         "model": "FP12S",
         "manufacturer": "Louisville Slugger",
         "name": "Spark",
+        "status": "APPROVED",
+        "last_update": "5/4/2011"
+    },
+    {
+        "model": "FP12S",
+        "manufacturer": "Louisville Slugger",
+        "name": "TPS Spark",
         "status": "APPROVED",
         "last_update": "7/27/2011"
     },
@@ -14329,6 +15794,13 @@
         "manufacturer": "Louisville Slugger",
         "name": "",
         "status": "APPROVED",
+        "last_update": "11/18/2008"
+    },
+    {
+        "model": "FP91T",
+        "manufacturer": "Louisville Slugger",
+        "name": "TPS Triton",
+        "status": "APPROVED",
         "last_update": "11/19/2008"
     },
     {
@@ -14390,7 +15862,7 @@
     {
         "model": "FP9H29",
         "manufacturer": "Louisville Slugger",
-        "name": "TPS\u84ec2",
+        "name": "TPS\u0096H2",
         "status": "APPROVED",
         "last_update": "12/1/2009"
     },
@@ -14400,6 +15872,13 @@
         "name": "2027 ASCENT (-12)",
         "status": "APPROVED",
         "last_update": "11/11/2025"
+    },
+    {
+        "model": "FPACD12-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 ASCENT (-12)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
     },
     {
         "model": "FPAUD12-27",
@@ -14535,9 +16014,93 @@
         "last_update": "11/6/2008"
     },
     {
+        "model": "FPKR2D1030-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1031-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1031-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRYO2 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/8/2026"
+    },
+    {
+        "model": "FPKR2D1032-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1032-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRYO2 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/8/2026"
+    },
+    {
+        "model": "FPKR2D10325-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D10325-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRYO2 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/8/2026"
+    },
+    {
+        "model": "FPKR2D1033-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1033-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRYO2 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/8/2026"
+    },
+    {
+        "model": "FPKR2D10335-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1034-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
         "model": "FPKR2D10L-27",
         "manufacturer": "Louisville Slugger",
         "name": "2027 KRYO2 (-10)",
+        "status": "APPROVED",
+        "last_update": "10/13/2025"
+    },
+    {
+        "model": "FPKR2D10L-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "KRYO2 (-10)2027",
         "status": "APPROVED",
         "last_update": "2/16/2026"
     },
@@ -14547,6 +16110,55 @@
         "name": "2027 KRYO2 (-10)",
         "status": "APPROVED",
         "last_update": "11/16/2025"
+    },
+    {
+        "model": "FPKR2D1127-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1128-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1129-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1130-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1131-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1132-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D1133-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
     },
     {
         "model": "FPKR2D11L-27",
@@ -14570,11 +16182,74 @@
         "last_update": "10/13/2025"
     },
     {
+        "model": "FPKR2D833-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-8)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D8335-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-8)",
+        "status": "APPROVED",
+        "last_update": "11/18/2026"
+    },
+    {
+        "model": "FPKR2D834-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-8)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D834-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRYO2 (-8)",
+        "status": "APPROVED",
+        "last_update": "11/8/2026"
+    },
+    {
         "model": "FPKR2D9-27",
         "manufacturer": "Louisville Slugger",
         "name": "2027 KRYO2 (-9)",
         "status": "APPROVED",
         "last_update": "11/16/2025"
+    },
+    {
+        "model": "FPKR2D932-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D933-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D9335-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D934-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRY02 (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPKR2D934-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 KRYO2 (-9)",
+        "status": "APPROVED",
+        "last_update": "11/8/2026"
     },
     {
         "model": "FPKRD10-25",
@@ -14595,7 +16270,7 @@
         "manufacturer": "Louisville Slugger",
         "name": "2026 Kryo (-10)",
         "status": "APPROVED",
-        "last_update": "11/15/2024"
+        "last_update": "11/19/2024"
     },
     {
         "model": "FPKRD11-25",
@@ -14815,6 +16490,41 @@
         "last_update": "11/18/2023"
     },
     {
+        "model": "FPLXD1030-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1031-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1032-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1033-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1034-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
         "model": "FPLXD10L-26",
         "manufacturer": "Louisville Slugger",
         "name": "2026 LX3 (-10)",
@@ -14876,6 +16586,48 @@
         "name": "2025 LXT (-11)",
         "status": "APPROVED",
         "last_update": "11/18/2023"
+    },
+    {
+        "model": "FPLXD1128-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1129-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1130-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1131-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1132-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD1133-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
     },
     {
         "model": "FPLXD11L-26",
@@ -14976,6 +16728,20 @@
         "last_update": "11/11/2025"
     },
     {
+        "model": "FPLXD833-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-8)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD834-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-8)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
         "model": "FPLXD9-20",
         "manufacturer": "Louisville Slugger",
         "name": "LXT X20 (-9)",
@@ -15023,6 +16789,27 @@
         "name": "2027 LXT (-9)",
         "status": "APPROVED",
         "last_update": "11/16/2025"
+    },
+    {
+        "model": "FPLXD932-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD933-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "FPLXD934-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 LXT (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
     },
     {
         "model": "FPM214-RR",
@@ -15177,6 +16964,13 @@
         "name": "2027 QUEST (-12)",
         "status": "APPROVED",
         "last_update": "11/16/2025"
+    },
+    {
+        "model": "FPQUD12-28",
+        "manufacturer": "Louisville Slugger",
+        "name": "2028 QUEST (-12)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
     },
     {
         "model": "FPRIDE",
@@ -15571,23 +17365,65 @@
         "last_update": "3/12/2026"
     },
     {
+        "model": "LFPKR2KWD10L-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "2027 KRYO2 POP (-10",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "LFPKR2KWD10S-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "2027 KRYO2 POP (-10)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "LFPKR2KWD11L-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "2027 KRYO2 POP (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "LFPKR2KWD11S-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "2027 KRYO2 POP (-11)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "LFPKR2KWD8-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "2027 KRYO2 POP (-8)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
+        "model": "LFPKR2KWD9-27",
+        "manufacturer": "Louisville Slugger",
+        "name": "2027 KRYO2 POP (-9)",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
         "model": "LFPKRLTMD10L-26",
         "manufacturer": "Louisville Slugger",
-        "name": "2026 Kryo (-10) 2026 Kryo (-10) Love The Moment",
+        "name": "2026 Kryo (-10)\r\n2026 Kryo (-10) Love The Moment",
         "status": "APPROVED",
         "last_update": "11/16/2025"
     },
     {
         "model": "LFPKRLTMD10S-26",
         "manufacturer": "Louisville Slugger",
-        "name": "2026 Kryo (-10) 2026 Kryo (-10) Love The Moment",
+        "name": "2026 Kryo (-10)\r\n2026 Kryo (-10) Love The Moment",
         "status": "APPROVED",
         "last_update": "11/16/2025"
     },
     {
         "model": "LFPKRLTMD11L-26",
         "manufacturer": "Louisville Slugger",
-        "name": "2026 Kryo (-11) 2026 Kryo (-11) Love The Moment",
+        "name": "2026 Kryo (-11)\r\n2026 Kryo (-11) Love The Moment",
         "status": "APPROVED",
         "last_update": "11/16/2025"
     },
@@ -15608,7 +17444,7 @@
     {
         "model": "LFPKRLTMD9-26",
         "manufacturer": "Louisville Slugger",
-        "name": "2026 Kryo (-9) 2026 Kryo (-9) Love The Moment",
+        "name": "2026 Kryo (-9)\r\n2026 Kryo (-9) Love The Moment",
         "status": "APPROVED",
         "last_update": "11/16/2025"
     },
@@ -16215,6 +18051,13 @@
         "last_update": "2/2/2024"
     },
     {
+        "model": "SBAS26UA",
+        "manufacturer": "Louisville Slugger",
+        "name": "Genesis Alloy Slowpitch Bat Dual Stamp EL",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
+    },
+    {
         "model": "SBE54",
         "manufacturer": "Louisville Slugger",
         "name": "",
@@ -16507,6 +18350,13 @@
         "name": "2026 TPS 2PC PL USA JTF",
         "status": "APPROVED",
         "last_update": "2/16/2026"
+    },
+    {
+        "model": "SPTPS2MBAM-26",
+        "manufacturer": "Louisville Slugger",
+        "name": "2026 TPS 2PC ML USA MB",
+        "status": "APPROVED",
+        "last_update": "11/17/2026"
     },
     {
         "model": "SPTPSAE-21",
@@ -17086,6 +18936,13 @@
         "model": "WTLSZA17E",
         "manufacturer": "Louisville Slugger",
         "name": "Super Z - End Load",
+        "status": "APPROVED",
+        "last_update": "3/21/2017"
+    },
+    {
+        "model": "WTLSZA17E",
+        "manufacturer": "Louisville Slugger",
+        "name": "Super Z End Load",
         "status": "APPROVED",
         "last_update": "11/23/2016"
     },
@@ -17909,6 +19766,69 @@
         "last_update": "3/24/2026"
     },
     {
+        "model": "MFPASR10PM-28",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-29",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-30",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-31",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-32",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-32 1/2",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-33",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-33 1/2",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR10PM-34",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 10",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
         "model": "MFPASR11-28",
         "manufacturer": "Marucci",
         "name": "Asura Rise -11",
@@ -17951,6 +19871,48 @@
         "last_update": "3/24/2026"
     },
     {
+        "model": "MFPASR11PM-28",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 11",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR11PM-29",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 11",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR11PM-30",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 11",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR11PM-31",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 11",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR11PM-32",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 11",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR11PM-33",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 11",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
         "model": "MFPASR8-33",
         "manufacturer": "Marucci",
         "name": "Asura Rise -8",
@@ -17970,6 +19932,20 @@
         "name": "Asura Rise -8",
         "status": "APPROVED",
         "last_update": "3/24/2026"
+    },
+    {
+        "model": "MFPASR8PM-33",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 8",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR8PM-34",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 8",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
     },
     {
         "model": "MFPASR9-32",
@@ -18005,6 +19981,20 @@
         "name": "Asura Rise -9",
         "status": "APPROVED",
         "last_update": "3/24/2026"
+    },
+    {
+        "model": "MFPASR9PM-33",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 9",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
+    },
+    {
+        "model": "MFPASR9PM-34",
+        "manufacturer": "Marucci",
+        "name": "Asura Rise Pac-Man - 9",
+        "status": "APPROVED",
+        "last_update": "6/17/2026"
     },
     {
         "model": "MFPC710",
@@ -18058,7 +20048,7 @@
     {
         "model": "MFPE8",
         "manufacturer": "Marucci",
-        "name": "Echo",
+        "name": "ECHO",
         "status": "APPROVED",
         "last_update": "6/27/2023"
     },
@@ -18308,6 +20298,13 @@
         "last_update": "6/22/2024"
     },
     {
+        "model": "MFPED211-28",
+        "manufacturer": "Marucci",
+        "name": "Echo DMND -11 Gen 2",
+        "status": "APPROVED",
+        "last_update": "6/22/2024"
+    },
+    {
         "model": "MFPED211-29",
         "manufacturer": "Marucci",
         "name": "ECHO DMND 2 -11 (29)",
@@ -18469,6 +20466,34 @@
         "last_update": "5/25/2026"
     },
     {
+        "model": "MSPC17761LA-24.5",
+        "manufacturer": "Marucci",
+        "name": "CAT 1776",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPC17761LA-25.5",
+        "manufacturer": "Marucci",
+        "name": "CAT 1776",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPC17761LA-26.5",
+        "manufacturer": "Marucci",
+        "name": "CAT 1776",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPC17761LA-27",
+        "manufacturer": "Marucci",
+        "name": "CAT 1776",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
         "model": "MSPCCY2LA-25",
         "manufacturer": "Marucci",
         "name": "Chocolate Crush Yellow",
@@ -18509,6 +20534,55 @@
         "name": "Driippy",
         "status": "APPROVED",
         "last_update": "8/19/2025"
+    },
+    {
+        "model": "MSPGLGB1LA-24.5",
+        "manufacturer": "Marucci",
+        "name": "Gridlock Grabber Blue",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPGLGB1LA-25.5",
+        "manufacturer": "Marucci",
+        "name": "Gridlock Grabber Blue",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPGLGB1LA-26.5",
+        "manufacturer": "Marucci",
+        "name": "Gridlock Grabber Blue",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPGLGB1LA-27",
+        "manufacturer": "Marucci",
+        "name": "Gridlock Grabber Blue",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPRC2LA-25",
+        "manufacturer": "Marucci",
+        "name": "Rckless Camo",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPRC2LA-26",
+        "manufacturer": "Marucci",
+        "name": "Rckless Camo",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "MSPRC2LA-27",
+        "manufacturer": "Marucci",
+        "name": "Rckless Camo",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
     },
     {
         "model": "BOSFP",
@@ -18669,6 +20743,13 @@
         "manufacturer": "Miken",
         "name": "FREAK RWB BORDER BATTLE",
         "status": "APPROVED",
+        "last_update": "4/30/2015"
+    },
+    {
+        "model": "BBATMA",
+        "manufacturer": "Miken",
+        "name": "Freak USA Border Battle",
+        "status": "APPROVED",
         "last_update": "10/28/2015"
     },
     {
@@ -18719,6 +20800,13 @@
         "name": "Maniac",
         "status": "APPROVED",
         "last_update": "10/24/2018"
+    },
+    {
+        "model": "DIC20M",
+        "manufacturer": "Miken",
+        "name": "Maniac",
+        "status": "APPROVED",
+        "last_update": "4/15/2022"
     },
     {
         "model": "DIC21M",
@@ -19053,6 +21141,13 @@
         "model": "Maniac 484",
         "manufacturer": "Miken",
         "name": "Fastpitch",
+        "status": "APPROVED",
+        "last_update": "6/14/2007"
+    },
+    {
+        "model": "Maniac 484",
+        "manufacturer": "Miken",
+        "name": "Slowpitch",
         "status": "APPROVED",
         "last_update": "6/14/2007"
     },
@@ -20272,7 +22367,7 @@
         "manufacturer": "Miken",
         "name": "KP23",
         "status": "APPROVED",
-        "last_update": "11/11/2025"
+        "last_update": "11/16/2026"
     },
     {
         "model": "MSA6KPL-27",
@@ -20359,6 +22454,20 @@
         "last_update": "11/13/2025"
     },
     {
+        "model": "MSA6PSYCL-26",
+        "manufacturer": "Miken",
+        "name": "PSYCHO",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSA6PSYCL-27",
+        "manufacturer": "Miken",
+        "name": "PSYCHO",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
         "model": "MSA6SFHX-25",
         "manufacturer": "Miken",
         "name": "Superfreak Highlighter",
@@ -20380,6 +22489,34 @@
         "last_update": "3/12/2026"
     },
     {
+        "model": "MSA6SISKPL-25",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "7/16/2026"
+    },
+    {
+        "model": "MSA6SISKPL-26",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSA6SISKPL-27",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSA6SISKPL-28",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
         "model": "MSA6SISRL-25",
         "manufacturer": "Miken",
         "name": "FREAK",
@@ -20399,6 +22536,209 @@
         "name": "FREAK",
         "status": "APPROVED",
         "last_update": "3/12/2026"
+    },
+    {
+        "model": "MSA7AMDCL-25",
+        "manufacturer": "Miken",
+        "name": "DC-41",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7AMDCL-25",
+        "manufacturer": "Miken",
+        "name": "DC-41 Xtreme",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSA7AMDCL-26",
+        "manufacturer": "Miken",
+        "name": "DC-41",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7AMDCL-26",
+        "manufacturer": "Miken",
+        "name": "DC-41 Xtreme",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSA7AMDCL-27",
+        "manufacturer": "Miken",
+        "name": "DC-41",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7AMDCL-27",
+        "manufacturer": "Miken",
+        "name": "DC-41 Xtreme",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSA7AMKPL-25",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7AMKPL-26",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7AMKPL-27",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FPATL-25",
+        "manufacturer": "Miken",
+        "name": "FREAK PATRIOT",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FPATL-26",
+        "manufacturer": "Miken",
+        "name": "FREAK PATRIOT",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FPATL-27",
+        "manufacturer": "Miken",
+        "name": "FREAK PATRIOT",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FRKB-25.5",
+        "manufacturer": "Miken",
+        "name": "FREAK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FRKB-26.5",
+        "manufacturer": "Miken",
+        "name": "FREAK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FRKB-27.5",
+        "manufacturer": "Miken",
+        "name": "FREAK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FRKL-26",
+        "manufacturer": "Miken",
+        "name": "FREAK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FRKL-27",
+        "manufacturer": "Miken",
+        "name": "FREAK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7FRKL-28",
+        "manufacturer": "Miken",
+        "name": "FREAK",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KP1L-25",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KP1L-26",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KP1L-27",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KP1L-28",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KPL-25",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KPL-26",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KPL-27",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7KPL-28",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7NKPL-25",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7NKPL-26",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSA7NKPL-27",
+        "manufacturer": "Miken",
+        "name": "KP23",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
     },
     {
         "model": "MSAPC-1",
@@ -20450,6 +22790,20 @@
         "last_update": "11/13/2025"
     },
     {
+        "model": "MSD6SI71B",
+        "manufacturer": "Miken",
+        "name": "SMASHIT7",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSD6SI71L",
+        "manufacturer": "Miken",
+        "name": "SMASHIT7",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
         "model": "MSD6SKL",
         "manufacturer": "Miken",
         "name": "SYKO",
@@ -20469,6 +22823,62 @@
         "name": "VICIOUS",
         "status": "APPROVED",
         "last_update": "11/13/2025"
+    },
+    {
+        "model": "MSD6WDBLK",
+        "manufacturer": "Miken",
+        "name": "M2950 PRO WOOD",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "MSD6WDPKBL",
+        "manufacturer": "Miken",
+        "name": "M2950 PRO WOOD",
+        "status": "APPROVED",
+        "last_update": "7/16/2026"
+    },
+    {
+        "model": "MSD7MAN",
+        "manufacturer": "Miken",
+        "name": "MANIAC",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSD7MV1L",
+        "manufacturer": "Miken",
+        "name": "MV1",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSD7V13B1",
+        "manufacturer": "Miken",
+        "name": "VICIOUS",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSD7WDBLUE",
+        "manufacturer": "Miken",
+        "name": "M2950 PRO WOOD",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSD7WDMINT",
+        "manufacturer": "Miken",
+        "name": "M2950 PRO WOOD",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "MSD7WDTEAL",
+        "manufacturer": "Miken",
+        "name": "M2950 PRO WOOD",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
     },
     {
         "model": "MSFN",
@@ -20762,7 +23172,7 @@
         "manufacturer": "Miken",
         "name": "Maniac",
         "status": "APPROVED",
-        "last_update": "2/8/2012"
+        "last_update": "6/17/2013"
     },
     {
         "model": "SPRZRA",
@@ -20873,6 +23283,27 @@
         "model": "Viper",
         "manufacturer": "Miken",
         "name": "12\"",
+        "status": "APPROVED",
+        "last_update": "6/14/2007"
+    },
+    {
+        "model": "Viper",
+        "manufacturer": "Miken",
+        "name": "12\" 2001",
+        "status": "APPROVED",
+        "last_update": "6/14/2007"
+    },
+    {
+        "model": "Viper",
+        "manufacturer": "Miken",
+        "name": "14\"",
+        "status": "APPROVED",
+        "last_update": "6/14/2007"
+    },
+    {
+        "model": "Viper",
+        "manufacturer": "Miken",
+        "name": "14\" 2001",
         "status": "APPROVED",
         "last_update": "6/14/2007"
     },
@@ -21350,14 +23781,14 @@
         "manufacturer": "Mizuno",
         "name": "CRBN2 (-8)",
         "status": "APPROVED",
-        "last_update": "7/5/2022"
+        "last_update": "2/20/2023"
     },
     {
         "model": "340659",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-10)",
         "status": "APPROVED",
-        "last_update": "12/30/2024"
+        "last_update": "7/9/2023"
     },
     {
         "model": "340659-5551",
@@ -21367,7 +23798,14 @@
         "last_update": "12/30/2024"
     },
     {
-        "model": "340659.101",
+        "model": "340659.0000",
+        "manufacturer": "Mizuno",
+        "name": "F24-CRBN1 (-10)",
+        "status": "APPROVED",
+        "last_update": "12/30/2024"
+    },
+    {
+        "model": "340659.1010",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-10)",
         "status": "APPROVED",
@@ -21381,14 +23819,14 @@
         "last_update": "12/30/2024"
     },
     {
-        "model": "340659.401",
+        "model": "340659.4010",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-10)",
         "status": "APPROVED",
         "last_update": "12/30/2024"
     },
     {
-        "model": "340659.505",
+        "model": "340659.5050",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-10)",
         "status": "APPROVED",
@@ -21402,7 +23840,7 @@
         "last_update": "12/30/2024"
     },
     {
-        "model": "340659.909",
+        "model": "340659.9090",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-10)",
         "status": "APPROVED",
@@ -21413,10 +23851,17 @@
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-9)",
         "status": "APPROVED",
+        "last_update": "7/9/2023"
+    },
+    {
+        "model": "340660.0000",
+        "manufacturer": "Mizuno",
+        "name": "F24-CRBN1 (-9)",
+        "status": "APPROVED",
         "last_update": "12/30/2024"
     },
     {
-        "model": "340660.101",
+        "model": "340660.1010",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-9)",
         "status": "APPROVED",
@@ -21430,14 +23875,14 @@
         "last_update": "12/30/2024"
     },
     {
-        "model": "340660.401",
+        "model": "340660.4010",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-9)",
         "status": "APPROVED",
         "last_update": "12/30/2024"
     },
     {
-        "model": "340660.505",
+        "model": "340660.5050",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-9)",
         "status": "APPROVED",
@@ -21458,7 +23903,7 @@
         "last_update": "12/30/2024"
     },
     {
-        "model": "340660.909",
+        "model": "340660.9090",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-9)",
         "status": "APPROVED",
@@ -21556,32 +24001,81 @@
         "last_update": "12/30/2024"
     },
     {
-        "model": "340700.101",
+        "model": "340700.0000",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-11)",
         "status": "APPROVED",
         "last_update": "12/30/2024"
     },
     {
-        "model": "340700.401",
+        "model": "340700.1010",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-11)",
         "status": "APPROVED",
         "last_update": "12/30/2024"
     },
     {
-        "model": "340700.505",
+        "model": "340700.4010",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-11)",
         "status": "APPROVED",
         "last_update": "12/30/2024"
     },
     {
-        "model": "340700.909",
+        "model": "340700.5050",
         "manufacturer": "Mizuno",
         "name": "F24-CRBN1 (-11)",
         "status": "APPROVED",
         "last_update": "12/30/2024"
+    },
+    {
+        "model": "340700.9090",
+        "manufacturer": "Mizuno",
+        "name": "F24-CRBN1 (-11)",
+        "status": "APPROVED",
+        "last_update": "12/30/2024"
+    },
+    {
+        "model": "340701",
+        "manufacturer": "Mizuno",
+        "name": "F27-CRBN1 (-10)",
+        "status": "APPROVED",
+        "last_update": "6/29/2026"
+    },
+    {
+        "model": "340702",
+        "manufacturer": "Mizuno",
+        "name": "F27-CRBN1 (-9)",
+        "status": "APPROVED",
+        "last_update": "6/21/2026"
+    },
+    {
+        "model": "340703",
+        "manufacturer": "Mizuno",
+        "name": "F27-CRBN1 (-8)",
+        "status": "APPROVED",
+        "last_update": "6/21/2026"
+    },
+    {
+        "model": "340704",
+        "manufacturer": "Mizuno",
+        "name": "F27-CRBN1 (-11)",
+        "status": "APPROVED",
+        "last_update": "6/21/2026"
+    },
+    {
+        "model": "340748",
+        "manufacturer": "Mizuno",
+        "name": "CRBN1-R (-10",
+        "status": "APPROVED",
+        "last_update": "10/7/2026"
+    },
+    {
+        "model": "340749",
+        "manufacturer": "Mizuno",
+        "name": "CRBN1-R (-9)",
+        "status": "APPROVED",
+        "last_update": "10/7/2026"
     },
     {
         "model": "Blaze",
@@ -21595,7 +24089,7 @@
         "manufacturer": "Mizuno",
         "name": "",
         "status": "APPROVED",
-        "last_update": "2/11/2010"
+        "last_update": "5/26/2011"
     },
     {
         "model": "Crush",
@@ -21605,9 +24099,23 @@
         "last_update": "4/30/2008"
     },
     {
+        "model": "Crush",
+        "manufacturer": "Mizuno",
+        "name": "G5",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
         "model": "Frenzy",
         "manufacturer": "Mizuno",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Frenzy",
+        "manufacturer": "Mizuno",
+        "name": "Super Lite",
         "status": "APPROVED",
         "last_update": "6/6/2011"
     },
@@ -21700,6 +24208,55 @@
         "manufacturer": "Mizuno",
         "name": "2010",
         "status": "APPROVED",
+        "last_update": "2/11/2010"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Classic",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Crush 2",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Envy",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Fastpitch -10",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Fastpitch -9",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Fury",
+        "status": "APPROVED",
+        "last_update": "4/30/2008"
+    },
+    {
+        "model": "Techfire",
+        "manufacturer": "Mizuno",
+        "name": "Rage",
+        "status": "APPROVED",
         "last_update": "4/30/2008"
     },
     {
@@ -21743,6 +24300,20 @@
         "name": "",
         "status": "APPROVED",
         "last_update": "4/30/2008"
+    },
+    {
+        "model": "26SPRPA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "RED PANDA",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SPTA2KTS",
+        "manufacturer": "Monsta Athletics",
+        "name": "KISS THE SKY",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
     },
     {
         "model": "13SPBCM1",
@@ -22322,6 +24893,13 @@
         "model": "20SPH26A2",
         "manufacturer": "Monsta Athletics",
         "name": "2019 National Champs",
+        "status": "APPROVED",
+        "last_update": "1/11/2021"
+    },
+    {
+        "model": "20SPH26A2",
+        "manufacturer": "Monsta Athletics",
+        "name": "Lazer Hype",
         "status": "APPROVED",
         "last_update": "7/15/2020"
     },
@@ -23912,6 +26490,13 @@
         "manufacturer": "Monsta Athletics",
         "name": "23 Fulcrum",
         "status": "APPROVED",
+        "last_update": "1/20/2024"
+    },
+    {
+        "model": "23SPFULA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "Fulcrum",
+        "status": "APPROVED",
         "last_update": "7/9/2023"
     },
     {
@@ -24011,6 +26596,13 @@
         "name": "23 Rhino RKC",
         "status": "APPROVED",
         "last_update": "10/22/2023"
+    },
+    {
+        "model": "23SPSFA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "SUPAFLY",
+        "status": "APPROVED",
+        "last_update": "8/25/2026"
     },
     {
         "model": "23SPSKA2F",
@@ -24598,7 +27190,7 @@
         "manufacturer": "Monsta Athletics",
         "name": "1 PC FUEL",
         "status": "APPROVED",
-        "last_update": "2/25/2025"
+        "last_update": "3/4/2025"
     },
     {
         "model": "25SPSBA1",
@@ -24657,6 +27249,13 @@
         "last_update": "6/4/2025"
     },
     {
+        "model": "25SPWTA2",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 WATERMELON TORCH",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
         "model": "25SPWTPA1T",
         "manufacturer": "Monsta Athletics",
         "name": "WTP 1PC TORCH",
@@ -24685,11 +27284,151 @@
         "last_update": "12/2/2025"
     },
     {
+        "model": "26SPBKA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "BK TORCH",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "26SPCMA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 COOKIE MONSTA",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
+        "model": "26SPDNAC2",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 DNA COMP SERIES",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
+        "model": "26SPEHPA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 FLAME TORCH",
+        "status": "APPROVED",
+        "last_update": "7/24/2026"
+    },
+    {
+        "model": "26SPINFA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 INFRARED",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
+        "model": "26SPINSA2KOD",
+        "manufacturer": "Monsta Athletics",
+        "name": "INSIDIOUS",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "26SPINSA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "INSIDIOUS",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "26SPKODC2",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 KOD COMP SERIES",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
         "model": "26SPNEA2KOD",
         "manufacturer": "Monsta Athletics",
         "name": "26 NO EVIL",
         "status": "APPROVED",
         "last_update": "2/19/2026"
+    },
+    {
+        "model": "26SPRAAA2",
+        "manufacturer": "Monsta Athletics",
+        "name": "ALLEGIANCE",
+        "status": "APPROVED",
+        "last_update": "7/24/2026"
+    },
+    {
+        "model": "26SPRAFA2",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 FUEL",
+        "status": "APPROVED",
+        "last_update": "7/24/2026"
+    },
+    {
+        "model": "26SPSTA2KOD",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 EMPIRE",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
+        "model": "26SPTA2R",
+        "manufacturer": "Monsta Athletics",
+        "name": "RAGE",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "26SPTC2",
+        "manufacturer": "Monsta Athletics",
+        "name": "26 TORCH COMP SERIES",
+        "status": "APPROVED",
+        "last_update": "7/3/2026"
+    },
+    {
+        "model": "26SPTKOA2T",
+        "manufacturer": "Monsta Athletics",
+        "name": "TKO",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SP316TC2",
+        "manufacturer": "Monsta Athletics",
+        "name": "316",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SP4132A",
+        "manufacturer": "Monsta Athletics",
+        "name": "413",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SPJSTC2",
+        "manufacturer": "Monsta Athletics",
+        "name": "JESUS SAVES",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SPKODM2",
+        "manufacturer": "Monsta Athletics",
+        "name": "MEGA M2",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SPTA2A3",
+        "manufacturer": "Monsta Athletics",
+        "name": "CHIEF",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
+    },
+    {
+        "model": "27SPTA2BN",
+        "manufacturer": "Monsta Athletics",
+        "name": "BATTLE OF NATIONS",
+        "status": "APPROVED",
+        "last_update": "9/3/2026"
     },
     {
         "model": "29SODSA1S",
@@ -24898,6 +27637,13 @@
         "model": "Imara",
         "manufacturer": "Nike",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/19/2008"
+    },
+    {
+        "model": "Imara",
+        "manufacturer": "Nike",
+        "name": "7050",
         "status": "APPROVED",
         "last_update": "8/19/2008"
     },
@@ -25452,6 +28198,13 @@
         "manufacturer": "Pure",
         "name": "37073 - Custom Hellfire",
         "status": "APPROVED",
+        "last_update": "6/1/2024"
+    },
+    {
+        "model": "M565-5421",
+        "manufacturer": "Pure",
+        "name": "NAGAAA New Orleans",
+        "status": "APPROVED",
         "last_update": "5/20/2024"
     },
     {
@@ -25648,6 +28401,20 @@
         "manufacturer": "Pure",
         "name": "Custom MS Hellfire",
         "status": "APPROVED",
+        "last_update": "7/18/2024"
+    },
+    {
+        "model": "ME83-5353",
+        "manufacturer": "Pure",
+        "name": "Order 36792 - Custom MS Hellfire",
+        "status": "APPROVED",
+        "last_update": "5/20/2024"
+    },
+    {
+        "model": "ME83-5353",
+        "manufacturer": "Pure",
+        "name": "Sugar Skull Hellfire",
+        "status": "APPROVED",
         "last_update": "5/20/2024"
     },
     {
@@ -25676,12 +28443,26 @@
         "manufacturer": "Pure",
         "name": "37073-Custom Hellfire",
         "status": "APPROVED",
+        "last_update": "5/20/2024"
+    },
+    {
+        "model": "ME83-5421",
+        "manufacturer": "Pure",
+        "name": "Custom Weekend Warriors Hellfire",
+        "status": "APPROVED",
         "last_update": "7/18/2024"
     },
     {
         "model": "ME83-5423",
         "manufacturer": "Pure",
         "name": "37074-Custom Hellfire-KW Blue",
+        "status": "APPROVED",
+        "last_update": "5/20/2024"
+    },
+    {
+        "model": "ME83-5423",
+        "manufacturer": "Pure",
+        "name": "Custom KW Blue Hellfire",
         "status": "APPROVED",
         "last_update": "7/18/2024"
     },
@@ -25717,6 +28498,13 @@
         "model": "MFE6-5161",
         "manufacturer": "Pure",
         "name": "Halloween Elm Skybolt",
+        "status": "APPROVED",
+        "last_update": "5/20/2024"
+    },
+    {
+        "model": "MFE6-5161",
+        "manufacturer": "Pure",
+        "name": "Haloween Friday 13 Skybolt",
         "status": "APPROVED",
         "last_update": "5/20/2024"
     },
@@ -25865,6 +28653,13 @@
         "manufacturer": "Rawlings",
         "name": "",
         "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
+        "model": "FP21AF",
+        "manufacturer": "Rawlings",
+        "name": "Amanda Freed",
+        "status": "APPROVED",
         "last_update": "8/14/2008"
     },
     {
@@ -25913,6 +28708,13 @@
         "model": "FP31AF",
         "manufacturer": "Rawlings",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "FP31AF",
+        "manufacturer": "Rawlings",
+        "name": "Amanda Freed",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -26271,6 +29073,13 @@
         "manufacturer": "Rawlings",
         "name": "",
         "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "FPINS",
+        "manufacturer": "Rawlings",
+        "name": "Instinct",
+        "status": "APPROVED",
         "last_update": "9/9/2008"
     },
     {
@@ -26305,6 +29114,13 @@
         "model": "FPLMP",
         "manufacturer": "Rawlings",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "FPLMP",
+        "manufacturer": "Rawlings",
+        "name": "Plasma",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -26654,7 +29470,7 @@
     {
         "model": "RFP5H13",
         "manufacturer": "Rawlings",
-        "name": "HAZE (-13)",
+        "name": "HAZE  (-13)",
         "status": "APPROVED",
         "last_update": "5/20/2024"
     },
@@ -26988,6 +29804,13 @@
         "last_update": "8/14/2008"
     },
     {
+        "model": "SPIO",
+        "manufacturer": "Rawlings",
+        "name": "Ion",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
         "model": "SPPAR",
         "manufacturer": "Rawlings",
         "name": "Paramount",
@@ -26998,6 +29821,13 @@
         "model": "SPREC",
         "manufacturer": "Rawlings",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
+        "model": "SPREC",
+        "manufacturer": "Rawlings",
+        "name": "Recon",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -27268,6 +30098,13 @@
         "last_update": "8/13/2008"
     },
     {
+        "model": "SPFP1PC",
+        "manufacturer": "Short Porch",
+        "name": "Milkshake Mint Chocolate",
+        "status": "APPROVED",
+        "last_update": "10/21/2026"
+    },
+    {
         "model": "SPFP2ST",
         "manufacturer": "Short Porch",
         "name": "Milkshake",
@@ -27294,6 +30131,13 @@
         "name": "Tax Man Black",
         "status": "APPROVED",
         "last_update": "2/3/2026"
+    },
+    {
+        "model": "SPUSA2P",
+        "manufacturer": "Short Porch",
+        "name": "USA Blackout X",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
     },
     {
         "model": "S-24-25-26-2",
@@ -27447,12 +30291,26 @@
         "manufacturer": "Suncoast",
         "name": "Backlash",
         "status": "APPROVED",
+        "last_update": "1/13/2020"
+    },
+    {
+        "model": "SBASAB",
+        "manufacturer": "Suncoast",
+        "name": "Backlash2",
+        "status": "APPROVED",
         "last_update": "7/5/2022"
     },
     {
         "model": "SBASAE",
         "manufacturer": "Suncoast",
         "name": "Backlash",
+        "status": "APPROVED",
+        "last_update": "1/13/2020"
+    },
+    {
+        "model": "SBASAE",
+        "manufacturer": "Suncoast",
+        "name": "Backlash2",
         "status": "APPROVED",
         "last_update": "7/5/2022"
     },
@@ -27590,6 +30448,132 @@
         "last_update": "4/29/2023"
     },
     {
+        "model": "VSPBC1BA-24",
+        "manufacturer": "Victus",
+        "name": "Beacon Christmas",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBC1BA-25",
+        "manufacturer": "Victus",
+        "name": "Beacon Christmas",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBC1BA-26",
+        "manufacturer": "Victus",
+        "name": "Beacon Christmas",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBC1BA-27",
+        "manufacturer": "Victus",
+        "name": "Beacon Christmas",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBNP2YASIS-25",
+        "manufacturer": "Victus",
+        "name": "Beacon Neon Pink SIS SMU",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBNP2YASIS-26",
+        "manufacturer": "Victus",
+        "name": "Beacon Neon Pink SIS SMU",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBNP2YASIS-27",
+        "manufacturer": "Victus",
+        "name": "Beacon Neon Pink SIS SMU",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBSS1BA-24",
+        "manufacturer": "Victus",
+        "name": "Beacon Stars and Stripes",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBSS1BA-25",
+        "manufacturer": "Victus",
+        "name": "Beacon Stars and Stripes",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBSS1BA-26",
+        "manufacturer": "Victus",
+        "name": "Beacon Stars and Stripes",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBSS1BA-26",
+        "manufacturer": "Victus",
+        "name": "Victus Beacon Stars and Stripes",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBSS1BA-27",
+        "manufacturer": "Victus",
+        "name": "Beacon Stars and Stripes",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBSS1BA-27",
+        "manufacturer": "Victus",
+        "name": "Victus Beacon Stars and Stripes",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBV2YA-25",
+        "manufacturer": "Victus",
+        "name": "Beacon Vice",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBV2YA-25",
+        "manufacturer": "Victus",
+        "name": "Victus Beacon Vice",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBV2YA-26",
+        "manufacturer": "Victus",
+        "name": "Beacon Vice",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBV2YA-27",
+        "manufacturer": "Victus",
+        "name": "Beacon Vice",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPBV2YA-27",
+        "manufacturer": "Victus",
+        "name": "Victus Beacon Vice",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
         "model": "VSPNP2BA-25",
         "manufacturer": "Victus",
         "name": "Noen Pencil Pink",
@@ -27616,6 +30600,27 @@
         "name": "Noen Pencil Pink",
         "status": "APPROVED",
         "last_update": "9/12/2025"
+    },
+    {
+        "model": "VSPV142YA-25",
+        "manufacturer": "Victus",
+        "name": "Vibe 14",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPV142YA-26",
+        "manufacturer": "Victus",
+        "name": "Vibe 14",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
+    },
+    {
+        "model": "VSPV142YA-27",
+        "manufacturer": "Victus",
+        "name": "Vibe 14",
+        "status": "APPROVED",
+        "last_update": "7/17/2026"
     },
     {
         "model": "VSPV2YA-25.5",
@@ -27658,6 +30663,34 @@
         "name": "Vandalized Purple",
         "status": "APPROVED",
         "last_update": "9/12/2025"
+    },
+    {
+        "model": "VSPVD22YA-25",
+        "manufacturer": "Victus",
+        "name": "Vandalized White",
+        "status": "APPROVED",
+        "last_update": "10/13/2026"
+    },
+    {
+        "model": "VSPVD22YA-26",
+        "manufacturer": "Victus",
+        "name": "Vandalized White",
+        "status": "APPROVED",
+        "last_update": "10/13/2026"
+    },
+    {
+        "model": "VSPVD22YA-26",
+        "manufacturer": "Victus",
+        "name": "Victus Vandalized White",
+        "status": "APPROVED",
+        "last_update": "10/13/2026"
+    },
+    {
+        "model": "VSPVD22YA-27",
+        "manufacturer": "Victus",
+        "name": "Vandalized White",
+        "status": "APPROVED",
+        "last_update": "10/13/2026"
     },
     {
         "model": "VB",
@@ -27770,6 +30803,13 @@
         "name": "Mana",
         "status": "APPROVED",
         "last_update": "5/15/2026"
+    },
+    {
+        "model": "WSFPM11-26",
+        "manufacturer": "Warstic Sports",
+        "name": "Mana",
+        "status": "APPROVED",
+        "last_update": "7/16/2026"
     },
     {
         "model": "WSFPM9-26",
@@ -27898,9 +30938,23 @@
         "last_update": "8/14/2008"
     },
     {
+        "model": "Blac98",
+        "manufacturer": "Worth",
+        "name": "EST",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
         "model": "BLUE98",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "Blue98",
+        "manufacturer": "Worth",
+        "name": "EST",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -27936,6 +30990,13 @@
         "model": "deBeer",
         "manufacturer": "Worth",
         "name": "1510C Clincher Silver",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "deBeer",
+        "manufacturer": "Worth",
+        "name": "CLEST Clincher EST",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -28710,6 +31771,13 @@
         "last_update": "9/9/2008"
     },
     {
+        "model": "HYBEST",
+        "manufacturer": "Worth",
+        "name": "EST HYBRID",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
         "model": "HYBFP",
         "manufacturer": "Worth",
         "name": "",
@@ -28720,6 +31788,13 @@
         "model": "INFP",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
+        "model": "INFP",
+        "manufacturer": "Worth",
+        "name": "Insanity",
         "status": "APPROVED",
         "last_update": "9/9/2008"
     },
@@ -28787,7 +31862,7 @@
         "last_update": "8/14/2008"
     },
     {
-        "model": "LQUAD LQUAD",
+        "model": "LQUAD\r\n\r\nLQUAD",
         "manufacturer": "Worth",
         "name": "",
         "status": "APPROVED",
@@ -28889,7 +31964,7 @@
         "manufacturer": "Worth",
         "name": "Mayhem",
         "status": "APPROVED",
-        "last_update": "9/30/2011"
+        "last_update": "12/12/2011"
     },
     {
         "model": "MF5B",
@@ -29015,6 +32090,13 @@
         "manufacturer": "Worth",
         "name": "",
         "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "POCFP",
+        "manufacturer": "Worth",
+        "name": "Prodigy",
+        "status": "APPROVED",
         "last_update": "9/9/2008"
     },
     {
@@ -29035,6 +32117,13 @@
         "model": "PST98",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "PST98",
+        "manufacturer": "Worth",
+        "name": "PST",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -29350,6 +32439,13 @@
         "model": "SBINS6",
         "manufacturer": "Worth",
         "name": "Insanity",
+        "status": "APPROVED",
+        "last_update": "3/4/2010"
+    },
+    {
+        "model": "SBINS6",
+        "manufacturer": "Worth",
+        "name": "Instinct",
         "status": "APPROVED",
         "last_update": "3/4/2010"
     },
@@ -29816,9 +32912,23 @@
         "last_update": "9/9/2008"
     },
     {
+        "model": "SILFP",
+        "manufacturer": "Worth",
+        "name": "Silencer",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
         "model": "SILSB",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
+        "model": "SILSB",
+        "manufacturer": "Worth",
+        "name": "Silencer",
         "status": "APPROVED",
         "last_update": "9/9/2008"
     },
@@ -30236,9 +33346,23 @@
         "last_update": "9/9/2008"
     },
     {
+        "model": "W2FP",
+        "manufacturer": "Worth",
+        "name": "Powercell",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
         "model": "W2SB",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "W2SB",
+        "manufacturer": "Worth",
+        "name": "Powercell",
         "status": "APPROVED",
         "last_update": "9/9/2008"
     },
@@ -30257,6 +33381,13 @@
         "last_update": "9/9/2008"
     },
     {
+        "model": "W3FP",
+        "manufacturer": "Worth",
+        "name": "Michele Smith FP",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
         "model": "W3FP7",
         "manufacturer": "Worth",
         "name": "Worth Fastpitch",
@@ -30271,9 +33402,23 @@
         "last_update": "9/9/2008"
     },
     {
+        "model": "W3SB",
+        "manufacturer": "Worth",
+        "name": "Whiplash",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
         "model": "W4FP",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
+        "model": "W4FP",
+        "manufacturer": "Worth",
+        "name": "Whiplash",
         "status": "APPROVED",
         "last_update": "9/9/2008"
     },
@@ -30533,6 +33678,13 @@
         "model": "WIC98",
         "manufacturer": "Worth",
         "name": "",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "WIC98",
+        "manufacturer": "Worth",
+        "name": "Insanity",
         "status": "APPROVED",
         "last_update": "8/14/2008"
     },
@@ -30845,11 +33997,109 @@
         "last_update": "5/15/2026"
     },
     {
+        "model": "WSA6JRBEDL-25",
+        "manufacturer": "Worth",
+        "name": "BEDLAM - Josh Riley",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "WSA6JRBEDL-26",
+        "manufacturer": "Worth",
+        "name": "BEDLAM - Josh Riley",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
         "model": "WSA6JRBEDL-27",
         "manufacturer": "Worth",
         "name": "BEDLAM - Josh Riley",
         "status": "APPROVED",
-        "last_update": "11/13/2025"
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "WSA6WMLNL-25",
+        "manufacturer": "Worth",
+        "name": "LEGIT - WATERMELON",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "WSA6WMLNL-26",
+        "manufacturer": "Worth",
+        "name": "LEGIT - WATERMELON",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "WSA6WMLNL-27",
+        "manufacturer": "Worth",
+        "name": "LEGIT - WATERMELON",
+        "status": "APPROVED",
+        "last_update": "7/13/2026"
+    },
+    {
+        "model": "WSA7JRBEDL-25",
+        "manufacturer": "Worth",
+        "name": "BEDLAM - JOSH RILEY",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "WSA7JRBEDL-26",
+        "manufacturer": "Worth",
+        "name": "BEDLAM - JOSH RILEY",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "WSA7JRBEDL-27",
+        "manufacturer": "Worth",
+        "name": "BEDLAM - JOSH RILEY",
+        "status": "APPROVED",
+        "last_update": "11/16/2026"
+    },
+    {
+        "model": "WSBR",
+        "manufacturer": "Worth",
+        "name": "",
+        "status": "APPROVED",
+        "last_update": "9/9/2008"
+    },
+    {
+        "model": "WSBR",
+        "manufacturer": "Worth",
+        "name": "Power Zone",
+        "status": "APPROVED",
+        "last_update": "8/14/2008"
+    },
+    {
+        "model": "WSCBLU",
+        "manufacturer": "Worth",
+        "name": "EST",
+        "status": "APPROVED",
+        "last_update": "2/6/2023"
+    },
+    {
+        "model": "WSCRED",
+        "manufacturer": "Worth",
+        "name": "EST",
+        "status": "APPROVED",
+        "last_update": "2/6/2023"
+    },
+    {
+        "model": "WSD4AMP",
+        "manufacturer": "Worth",
+        "name": "AMP",
+        "status": "APPROVED",
+        "last_update": "2/2/2024"
+    },
+    {
+        "model": "WSD4MAY",
+        "manufacturer": "Worth",
+        "name": "Mayhem",
+        "status": "APPROVED",
+        "last_update": "2/2/2024"
     },
     {
         "model": "WSD6BLPWC",
@@ -30878,6 +34128,20 @@
         "name": "AMP",
         "status": "APPROVED",
         "last_update": "11/13/2025"
+    },
+    {
+        "model": "WSG22A",
+        "manufacturer": "Worth",
+        "name": "Supercell Gold",
+        "status": "APPROVED",
+        "last_update": "1/28/2022"
+    },
+    {
+        "model": "WSISMT",
+        "manufacturer": "Worth",
+        "name": "Mutation SIS",
+        "status": "APPROVED",
+        "last_update": "3/1/2018"
     },
     {
         "model": "WSPK",

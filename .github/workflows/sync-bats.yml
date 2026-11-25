@@ -1,0 +1,40 @@
+name: Weekly USA Softball Bat Sync
+
+on:
+  schedule:
+    # Runs every Saturday at 8:00 PM EST / 9:00 PM EDT (01:00 UTC Sunday)
+    - cron: '0 1 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-bats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync bats from USA Softball
+        run: python3 sync_bats.py
+
+      - name: Verify banned bats
+        run: python3 verify_banned_bats.py
+
+      - name: Commit and push if bats.json changed
+        run: |
+          if git diff --quiet bats.json; then
+            echo "No changes to bats.json; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bats.json
+          git commit -m "chore: weekly USA Softball bat list sync ($(date -u +%Y-%m-%d))"
+          git push origin HEAD:master
